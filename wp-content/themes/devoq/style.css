@@ -5922,4 +5922,6 @@ footer {
 
 /*---------------DEVOQ-----------------*/
 
-body { background: #fff;}
+body { background: #fff;     overflow-x: hidden !important; overflow-y: visible !important;}
+.elementor-element-9667ef8 { z-index: 99999;}
+
