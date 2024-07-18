@@ -1,0 +1,2457 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">		<title>Olara Wallet</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="alternate" type="application/rss+xml" title="Olara Wallet &raquo; Feed" href="/feed/">
+<link rel="alternate" type="application/rss+xml" title="Olara Wallet &raquo; Comments Feed" href="/comments/feed/">
+<style id="classic-theme-styles-inline-css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id="global-styles-inline-css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #FFFFFF;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--dark-gray: #28303D;--wp--preset--color--gray: #39414D;--wp--preset--color--green: #D1E4DD;--wp--preset--color--blue: #D1DFE4;--wp--preset--color--purple: #D1D1E4;--wp--preset--color--red: #E4D1D1;--wp--preset--color--orange: #E4DAD1;--wp--preset--color--yellow: #EEEADD;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--purple-to-yellow: linear-gradient(160deg, #D1D1E4 0%, #EEEADD 100%);--wp--preset--gradient--yellow-to-purple: linear-gradient(160deg, #EEEADD 0%, #D1D1E4 100%);--wp--preset--gradient--green-to-yellow: linear-gradient(160deg, #D1E4DD 0%, #EEEADD 100%);--wp--preset--gradient--yellow-to-green: linear-gradient(160deg, #EEEADD 0%, #D1E4DD 100%);--wp--preset--gradient--red-to-yellow: linear-gradient(160deg, #E4D1D1 0%, #EEEADD 100%);--wp--preset--gradient--yellow-to-red: linear-gradient(160deg, #EEEADD 0%, #E4D1D1 100%);--wp--preset--gradient--purple-to-red: linear-gradient(160deg, #D1D1E4 0%, #E4D1D1 100%);--wp--preset--gradient--red-to-purple: linear-gradient(160deg, #E4D1D1 0%, #D1D1E4 100%);--wp--preset--font-size--small: 18px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 24px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--extra-small: 16px;--wp--preset--font-size--normal: 20px;--wp--preset--font-size--extra-large: 40px;--wp--preset--font-size--huge: 96px;--wp--preset--font-size--gigantic: 144px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="twenty-twenty-one-style-css" href="/wp-content/themes/devoq/style.css?ver=1.7" media="all">
+<link rel="stylesheet" id="twenty-twenty-one-print-style-css" href="/wp-content/themes/devoq/assets/css/print.css?ver=1.7" media="print">
+<link rel="stylesheet" id="elementor-icons-css" href="/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.23.0" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.17.2" media="all">
+<link rel="stylesheet" id="swiper-css" href="/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5" media="all">
+<link rel="stylesheet" id="elementor-post-5-css" href="/wp-content/uploads/elementor/css/post-5.css?ver=1720682454" media="all">
+<link rel="stylesheet" id="elementor-pro-css" href="/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.12.2" media="all">
+<link rel="stylesheet" id="elementor-global-css" href="/wp-content/uploads/elementor/css/global.css?ver=1720682455" media="all">
+<link rel="stylesheet" id="elementor-post-1347-css" href="/wp-content/uploads/elementor/css/post-1347.css?ver=1721056261" media="all">
+<link rel="stylesheet" id="elementor-post-8-css" href="/wp-content/uploads/elementor/css/post-8.css?ver=1720788766" media="all">
+<link rel="stylesheet" id="elementor-post-16-css" href="/wp-content/uploads/elementor/css/post-16.css?ver=1721056095" media="all">
+<link rel="stylesheet" id="elementor-icons-ekiticons-css" href="/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons.css?ver=3.0.4" media="all">
+<link rel="stylesheet" id="ekit-widget-styles-css" href="/wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles.css?ver=3.0.4" media="all">
+<link rel="stylesheet" id="ekit-responsive-css" href="/wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive.css?ver=3.0.4" media="all">
+<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Montserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat+Subrayada%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CArchivo%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.4.2" media="all">
+<link rel="stylesheet" id="elementor-icons-shared-0-css" href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3" media="all">
+<link rel="stylesheet" id="elementor-icons-fa-solid-css" href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3" media="all">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<script src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="/wp-json/">
+<link rel="alternate" type="application/json" href="/wp-json/wp/v2/pages/1347">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.4.2">
+<link rel="canonical" href="/">
+<link rel="shortlink" href="/">
+<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F">
+<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F#038;format=xml">
+<meta name="generator" content="Elementor 3.17.2; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-swap">
+			<meta name="theme-color" content="#141414">
+			<link rel="icon" href="/wp-content/uploads/2023/12/favicon_olara_wallet.png" sizes="32x32">
+<link rel="icon" href="/wp-content/uploads/2023/12/favicon_olara_wallet.png" sizes="192x192">
+<link rel="apple-touch-icon" href="/wp-content/uploads/2023/12/favicon_olara_wallet.png">
+<meta name="msapplication-TileImage" content="/wp-content/uploads/2023/12/favicon_olara_wallet.png">
+</head>
+<body class="home page-template page-template-elementor_header_footer page page-id-1347 wp-custom-logo wp-embed-responsive is-light-theme no-js singular elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-1347">
+		<header data-elementor-type="header" data-elementor-id="8" class="elementor elementor-8 elementor-location-header">
+						<div class="elementor-element elementor-element-9667ef8 e-flex e-con-boxed e-con e-parent" data-id="9667ef8" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;content_width&quot;:&quot;boxed&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-b71bb82 e-con-full e-flex e-con e-child" data-id="b71bb82" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-ad7aa8d elementor-widget-mobile__width-inherit elementor-widget__width-inherit elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="ad7aa8d" data-element_type="widget" data-widget_type="theme-site-logo.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 01-11-2023 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>								<a href="/">
+			<img width="150" height="56" src="/wp-content/uploads/2023/12/logo_olara_wallet.png" class="attachment-full size-full wp-image-1331" alt="" style="width:100%;height:37.33%;max-width:150px">				</a>
+											</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-3e265c3 e-con-full e-flex e-con e-child" data-id="3e265c3" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-52d919e elementor-nav-menu--dropdown-mobile elementor-nav-menu--stretch elementor-nav-menu__align-center elementor-widget__width-inherit elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="52d919e" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="https://olarawallet.com/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css">			<nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
+				<ul id="menu-1-52d919e" class="elementor-nav-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1347 current_page_item menu-item-1784"><a href="/" aria-current="page" class="elementor-item elementor-item-active">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21"><a href="#about" class="elementor-item elementor-item-anchor">About</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22"><a href="#" class="elementor-item elementor-item-anchor">Blog</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24"><a href="#contact-us" class="elementor-item elementor-item-anchor">Contact Us</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>			<span class="elementor-screen-only">Menu</span>
+		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-52d919e" class="elementor-nav-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1347 current_page_item menu-item-1784"><a href="/" aria-current="page" class="elementor-item elementor-item-active" tabindex="-1">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21"><a href="#about" class="elementor-item elementor-item-anchor" tabindex="-1">About</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22"><a href="#" class="elementor-item elementor-item-anchor" tabindex="-1">Blog</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24"><a href="#contact-us" class="elementor-item elementor-item-anchor" tabindex="-1">Contact Us</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-e6603ad e-con-full elementor-hidden-tablet elementor-hidden-mobile e-flex e-con e-child" data-id="e6603ad" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-9d42c29 elementor-widget-elementskit-dual-button-end elementor-widget__width-inherit elementor-widget elementor-widget-elementskit-dual-button" data-id="9d42c29" data-element_type="widget" data-widget_type="elementskit-dual-button.default">
+				<div class="elementor-widget-container">
+			<div class="ekit-wid-con">
+                <div class="ekit-element-align-wrapper">
+                    <div class="ekit_double_button">                <a class="ekit-double-btn ekit-double-btn-one" href="#">
+                    Login                </a>
+            
+            <a class="ekit-double-btn ekit-double-btn-two" href="#">
+                    Sign up                </a>
+                  </div>
+                </div>
+            </div>		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+						</header>
+				<div data-elementor-type="wp-page" data-elementor-id="1347" class="elementor elementor-1347">
+							<div class="elementor-element elementor-element-88284ce e-flex e-con-boxed e-con e-parent" data-id="88284ce" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-75a68e0 e-flex e-con-boxed e-con e-child" data-id="75a68e0" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-05533f8 e-con-full e-flex e-con e-child" data-id="05533f8" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-9a45e6e animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="9a45e6e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 01-11-2023 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style>
+<h1 class="elementor-heading-title elementor-size-default">The crypto trading app for the next-gen</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-836ff16 animated-slow elementor-invisible elementor-widget elementor-widget-text-editor" data-id="836ff16" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 01-11-2023 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				A single, secure platform to manage diverse crypto assets across 100+ blockchains, eliminating the need for multiple wallets and enhancing security.						</div>
+				</div>
+				<div class="elementor-element elementor-element-769e791 btn-primary elementor-widget elementor-widget-elementskit-button" data-id="769e791" data-element_type="widget" data-widget_type="elementskit-button.default">
+				<div class="elementor-widget-container">
+			<div class="ekit-wid-con">		<div class="ekit-btn-wraper">
+							<a href="#" class="elementskit-btn  whitespace--normal">
+					Get Started
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none"><g clip-path="url(#clip0_1616_3778)"><path d="M12.0006 23.3392C18.2636 23.3392 23.3406 18.2621 23.3406 11.9992C23.3406 5.73627 18.2636 0.65918 12.0006 0.65918C5.73773 0.65918 0.660645 5.73627 0.660645 11.9992C0.660645 18.2621 5.73773 23.3392 12.0006 23.3392Z" stroke="white" stroke-width="1.125" stroke-miterlimit="10" stroke-linejoin="round" stroke-dasharray="71.25 71.25"></path><path d="M12.1054 7.44727L16.6579 11.9998M16.6579 11.9998L12.1054 16.5523M16.6579 11.9998H6.17285" stroke="white" stroke-width="1.125" stroke-miterlimit="10" stroke-linejoin="round"></path></g><defs><clippath id="clip0_1616_3778"><rect width="24" height="24" fill="white"></rect></clippath></defs></svg>
+				</a>
+						</div>
+        </div>		</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-2f745ab e-con-full elementor-hidden-desktop elementor-hidden-tablet e-flex e-con e-child" data-id="2f745ab" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-75b2e4e elementor-widget__width-inherit elementor-widget elementor-widget-image" data-id="75b2e4e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img fetchpriority="high" decoding="async" width="603" height="659" src="/wp-content/uploads/2024/07/img_hero_section.png" class="attachment-full size-full wp-image-1360" alt="" srcset="/wp-content/uploads/2024/07/img_hero_section.png 603w, /wp-content/uploads/2024/07/img_hero_section-275x300.png 275w" sizes="(max-width: 603px) 100vw, 603px" style="width:100%;height:109.29%;max-width:603px">															</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-b5ecca0 elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-image" data-id="b5ecca0" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="750" height="893" src="/wp-content/uploads/2024/07/img_elements_arrow.svg" class="attachment-large size-large wp-image-1707" alt="" style="width:100%;height:118.75%;max-width:48px">															</div>
+				</div>
+				<div class="elementor-element elementor-element-1c06f2f elementor-absolute elementor-widget elementor-widget-image" data-id="1c06f2f" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="39" height="38" src="/wp-content/uploads/2024/07/img_element_dot.svg" class="attachment-full size-full wp-image-1706" alt="" style="width:100%;height:97.44%;max-width:39px">															</div>
+				</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-033d647 elementor-absolute elementor-hidden-mobile elementor-invisible elementor-widget elementor-widget-image" data-id="033d647" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img fetchpriority="high" decoding="async" width="603" height="659" src="/wp-content/uploads/2024/07/img_hero_section.png" class="attachment-full size-full wp-image-1360" alt="" srcset="/wp-content/uploads/2024/07/img_hero_section.png 603w, /wp-content/uploads/2024/07/img_hero_section-275x300.png 275w" sizes="(max-width: 603px) 100vw, 603px" style="width:100%;height:109.29%;max-width:603px">															</div>
+				</div>
+				<div class="elementor-element elementor-element-45f2085 elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-image" data-id="45f2085" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="248" height="1024" src="/wp-content/uploads/2024/07/bg_dots.svg" class="attachment-large size-large wp-image-1702" alt="" style="width:100%;height:413.33%;max-width:45px">															</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-62ec840 e-flex e-con-boxed e-con e-parent" data-id="62ec840" data-element_type="container" id="about" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-c139f73 e-flex e-con-boxed e-con e-child" data-id="c139f73" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-695f099 e-con-full e-flex e-con e-child" data-id="695f099" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+		<div class="elementor-element elementor-element-38d1d92 e-con-full e-flex e-con e-child" data-id="38d1d92" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+		<div class="elementor-element elementor-element-37d444c e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="37d444c" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;}">
+				<div class="elementor-element elementor-element-a0de055 animated-slow elementor-view-stacked elementor-shape-circle elementor-position-top elementor-mobile-position-top elementor-invisible elementor-widget elementor-widget-icon-box" data-id="a0de055" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;pulse&quot;}" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="https://olarawallet.com/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">		<div class="elementor-icon-box-wrapper">
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon elementor-animation-grow">
+				<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewbox="0 0 26 26" fill="none"><g clip-path="url(#clip0_1616_3837)"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.4023 13.6279L11.3854 12.611C11.1218 12.3475 10.6943 12.3475 10.4307 12.611C10.1672 12.8746 10.1672 13.3021 10.4307 13.5657L11.9264 15.0613C12.1899 15.3249 12.6175 15.3249 12.881 15.0613C13.7825 14.1598 14.6739 13.2481 15.5712 12.3424C15.8329 12.0784 15.832 11.6522 15.5683 11.3899C15.3045 11.1276 14.8772 11.1283 14.6152 11.3929L12.4023 13.6279ZM13 5.616L7.00675 8.18452V13.5595C7.00675 17.116 9.54368 20.2129 13 20.9432C16.4563 20.213 18.9933 17.116 18.9933 13.5595V8.18452L13 5.616ZM13 17.7776C10.4865 17.7776 8.44893 15.74 8.44893 13.2265C8.44893 10.713 10.4865 8.67542 13 8.67542C15.5135 8.67542 17.5511 10.713 17.5511 13.2265C17.5511 15.74 15.5135 17.7776 13 17.7776ZM23.1683 10.5734C22.9122 9.49706 22.4856 8.46894 21.9054 7.5269L22.7842 5.54836L20.4515 3.21582L18.4724 4.0948C17.5306 3.51482 16.5027 3.08821 15.4267 2.83212L14.6494 0.8125H11.3507L10.5732 2.83212C9.49721 3.08821 8.4694 3.51482 7.52751 4.0948L5.54841 3.21582L3.21582 5.54846L4.09475 7.52741C3.51472 8.4693 3.08811 9.49716 2.83202 10.5733L0.8125 11.3507V14.6494L2.83166 15.4266C3.0878 16.5029 3.51437 17.5311 4.09454 18.4731L3.21577 20.4516L5.54841 22.7842L7.52761 21.9052C8.46945 22.4851 9.49721 22.9117 10.5733 23.1678L11.3507 25.1875H14.6494L15.4266 23.1683C16.5029 22.9122 17.5311 22.4856 18.4732 21.9055L20.4516 22.7842L22.7842 20.4516L21.9053 18.4725C22.4852 17.5306 22.9118 16.5029 23.1679 15.4268L25.1875 14.6494V11.3506L23.1683 10.5734ZM20.5167 13.5595C20.5167 17.959 17.3049 21.7439 13 22.4944C8.69517 21.7439 5.48331 17.959 5.48331 13.5595V7.17996L13 3.95855L20.5167 7.17996V13.5595Z" fill="#36C2FF"></path></g><defs><clippath id="clip0_1616_3837"><rect width="26" height="26" fill="white"></rect></clippath></defs></svg>				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<h3 class="elementor-icon-box-title">
+					<span>
+						Industry-leading security					</span>
+				</h3>
+									<p class="elementor-icon-box-description">
+						A single, secure platform to manage diverse crypto assets across 100+ blockchains, eliminating the need for multiple wallets and enhancing security. Olara will be the only wallet a user needs, simplifying the crypto experience.					</p>
+							</div>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-7f8fa6a e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="7f8fa6a" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
+				<div class="elementor-element elementor-element-7bedc9c animated-slow elementor-view-stacked elementor-shape-circle elementor-position-top elementor-mobile-position-top elementor-invisible elementor-widget elementor-widget-icon-box" data-id="7bedc9c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;pulse&quot;}" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-box-wrapper">
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon elementor-animation-grow">
+				<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewbox="0 0 26 26" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M18.5015 13.083C18.6861 12.5185 18.786 11.9162 18.786 11.2912C18.786 8.10419 16.1876 5.5043 13.0006 5.5043C9.81358 5.5043 7.21358 8.10424 7.21358 11.2912C7.21358 11.9162 7.31356 12.5185 7.49831 13.083H6.20315C4.32927 13.083 2.79639 11.5501 2.79639 9.67745C2.79639 8.25663 3.6785 7.03228 4.92094 6.52253C4.91493 6.41888 4.91248 6.31407 4.91248 6.2092C4.91248 3.20253 7.34919 0.764648 10.3559 0.764648C11.826 0.764648 13.1613 1.34792 14.141 2.2963C14.6592 2.11073 15.2171 2.00949 15.7992 2.00949C18.3335 2.00949 20.4183 3.92681 20.6846 6.38998C22.1632 6.79124 23.2032 8.14335 23.2032 9.67745C23.2032 11.5501 21.6703 13.083 19.7965 13.083H18.5015ZM13.0006 16.261C10.2628 16.261 8.02927 14.029 8.02927 11.2912C8.02927 8.55348 10.2628 6.31998 13.0006 6.31998C15.7383 6.31998 17.9703 8.55348 17.9703 11.2912C17.9703 14.029 15.7383 16.261 13.0006 16.261ZM12.348 11.7287L11.2372 10.6179C10.9495 10.3302 10.4823 10.3302 10.1946 10.6179C9.90683 10.9071 9.90683 11.3728 10.1946 11.6605L11.8274 13.2949C12.1151 13.5826 12.5823 13.5826 12.8701 13.2949C13.8548 12.3101 14.8277 11.3149 15.808 10.3258C16.0943 10.0366 16.0928 9.57085 15.8051 9.28464C15.5173 8.99839 15.0501 8.99987 14.7639 9.2876L12.348 11.7287ZM12.9998 22.6038C13.726 22.6038 14.3155 23.1934 14.3155 23.9195C14.3155 24.6457 13.726 25.2352 12.9998 25.2352C12.2736 25.2352 11.6841 24.6457 11.6841 23.9195C11.6841 23.1934 12.2736 22.6038 12.9998 22.6038ZM20.6042 22.6038C21.3304 22.6038 21.9199 23.1934 21.9199 23.9195C21.9199 24.6457 21.3304 25.2352 20.6042 25.2352C19.878 25.2352 19.2885 24.6457 19.2885 23.9195C19.2885 23.1934 19.878 22.6038 20.6042 22.6038ZM5.39542 22.6038C6.12158 22.6038 6.71112 23.1934 6.71112 23.9195C6.71112 24.6457 6.12158 25.2352 5.39542 25.2352C4.66925 25.2352 4.07972 24.6457 4.07972 23.9195C4.07972 23.1934 4.66925 22.6038 5.39542 22.6038ZM12.592 19.0446V17.9234C12.592 17.6983 12.7747 17.5156 12.9998 17.5156C13.2249 17.5156 13.4076 17.6983 13.4076 17.9234V19.0446H20.6042C20.8294 19.0446 21.012 19.2272 21.012 19.4524V20.9937C21.012 21.2187 20.8293 21.4015 20.6042 21.4015C20.3791 21.4015 20.1964 21.2187 20.1964 20.9937V19.8603H13.4076V20.9815C13.4076 21.2066 13.2249 21.3893 12.9998 21.3893C12.7747 21.3893 12.592 21.2066 12.592 20.9815V19.8603H5.80326V20.9937C5.80326 21.2187 5.6205 21.4015 5.39542 21.4015C5.17034 21.4015 4.98757 21.2187 4.98757 20.9937V19.4524C4.98757 19.2272 5.17019 19.0446 5.39542 19.0446H12.592Z" fill="#36C2FF"></path></svg>				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<h3 class="elementor-icon-box-title">
+					<span>
+						Cold storage for most users					</span>
+				</h3>
+									<p class="elementor-icon-box-description">
+						Security is our top priority. Olara Wallet offers cold storage solutions for the majority of users, keeping your assets offline and protected from online threats.					</p>
+							</div>
+		</div>
+				</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-b4f97e6 e-con-full e-flex e-con e-child" data-id="b4f97e6" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+		<div class="elementor-element elementor-element-f536c77 e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="f536c77" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;}">
+				<div class="elementor-element elementor-element-a41119c animated-slow elementor-view-stacked elementor-shape-circle elementor-position-top elementor-mobile-position-top elementor-invisible elementor-widget elementor-widget-icon-box" data-id="a41119c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;pulse&quot;}" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-box-wrapper">
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon elementor-animation-grow">
+				<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewbox="0 0 26 26" fill="none"><g clip-path="url(#clip0_1616_3846)"><path fill-rule="evenodd" clip-rule="evenodd" d="M20.1316 3.56421C18.4722 2.30683 16.4598 1.47192 14.2384 1.23843C7.74254 0.554378 1.92257 5.26578 1.23846 11.7617C0.965413 14.3586 1.55475 16.846 2.77409 18.9414C2.88732 19.136 2.8213 19.3858 2.62671 19.499C2.43217 19.6123 2.18231 19.5462 2.06909 19.3517C0.765518 17.1116 0.13535 14.4525 0.427264 11.6763C1.15853 4.73237 7.37987 -0.303979 14.3238 0.427233C16.6286 0.669542 18.723 1.51755 20.4663 2.79629L20.2033 1.87482C20.1415 1.65836 20.267 1.43246 20.4835 1.37068C20.7 1.30889 20.9259 1.43445 20.9876 1.65091L21.6072 3.82141C21.6416 3.94197 21.6186 4.07167 21.5449 4.17312C21.4712 4.27457 21.355 4.33646 21.2297 4.34095L18.9738 4.42206C18.7489 4.43016 18.5597 4.25408 18.5516 4.02915C18.5435 3.80417 18.7196 3.61499 18.9445 3.60693C18.9445 3.60693 19.6232 3.58251 20.1316 3.56421ZM5.53387 23.2039L5.79682 24.1252C5.85861 24.3417 5.73305 24.5676 5.51659 24.6294C5.30017 24.6911 5.07428 24.5656 5.01249 24.3491L4.39293 22.1786C4.35851 22.0581 4.38146 21.9284 4.45517 21.8269C4.52889 21.7255 4.64513 21.6636 4.77044 21.6591L7.02627 21.578C7.25124 21.5699 7.44043 21.746 7.44849 21.9709C7.45659 22.1959 7.28056 22.385 7.05558 22.3931C7.05558 22.3931 6.37673 22.4175 5.8682 22.4358C7.52741 23.6928 9.54098 24.5278 11.7617 24.7616C18.2576 25.4457 24.0776 20.7343 24.7616 14.2384C25.0347 11.6429 24.4468 9.15411 23.2261 7.05881C23.1128 6.86432 23.1787 6.61442 23.3732 6.50109C23.5677 6.38776 23.8176 6.45368 23.9309 6.64822C25.236 8.8883 25.8647 11.5489 25.5728 14.3238C24.8416 21.2677 18.6202 26.304 11.6763 25.5728C9.37223 25.3302 7.27689 24.4821 5.53387 23.2039ZM17.8168 16.1115C17.0098 14.2496 15.1527 12.9415 13.0001 12.9415C10.8476 12.9415 8.99075 14.2494 8.18357 16.1111C7.62024 16.111 7.17661 16.1109 6.90753 16.1108C6.83371 16.1108 6.76357 16.0787 6.71529 16.0228C6.66701 15.967 6.64534 15.8929 6.656 15.8199C7.12996 12.7412 9.78981 10.3833 13.0001 10.3833C16.2121 10.3833 18.872 12.7412 19.3451 15.8199C19.3557 15.8932 19.334 15.9674 19.2856 16.0234C19.2371 16.0793 19.1668 16.1115 19.0928 16.1115C18.8238 16.1115 18.3802 16.1115 17.8168 16.1115ZM13.0001 9.87349C11.2128 9.87349 9.75596 8.41494 9.75596 6.62762C9.75596 4.84035 11.2128 3.3818 13.0001 3.3818C14.7891 3.3818 16.246 4.84035 16.246 6.62762C16.246 8.41494 14.7891 9.87349 13.0001 9.87349ZM13.0001 22.6182C10.5599 22.6182 8.5696 20.6279 8.5696 18.1877C8.5696 15.7476 10.5599 13.7572 13.0001 13.7572C15.4403 13.7572 17.4306 15.7476 17.4306 18.1877C17.4306 20.6279 15.4403 22.6182 13.0001 22.6182ZM12.5923 15.6484C12.4913 15.6702 12.3929 15.6998 12.2985 15.737C11.7105 15.9682 11.2862 16.4755 11.3201 17.1653C11.3628 18.0688 12.177 18.4499 12.939 18.574C13.1485 18.6085 13.3729 18.6581 13.5706 18.7479C13.7885 18.8468 13.9753 18.9985 14.0084 19.2737L14.0084 19.2741C14.0346 19.4902 13.934 19.644 13.7854 19.7465C13.5794 19.8885 13.2998 19.9511 13.0486 19.9568H13.0477C12.5789 19.9684 12.0946 19.7613 11.9752 19.2819C11.9209 19.0635 11.6994 18.9303 11.481 18.9847C11.2625 19.0391 11.1294 19.2605 11.1837 19.479C11.358 20.1792 11.9313 20.6073 12.5923 20.7336V20.992C12.5923 21.217 12.775 21.3998 13.0001 21.3998C13.2252 21.3998 13.4079 21.217 13.4079 20.992V20.7395C14.1819 20.6081 14.9286 20.0877 14.8182 19.1762C14.7067 18.2497 13.8502 17.8973 13.0708 17.769L13.0701 17.7689C12.8759 17.7373 12.6701 17.6886 12.4921 17.6017C12.3039 17.5098 12.1464 17.3703 12.1349 17.1267L12.1348 17.1257C12.1194 16.8144 12.3318 16.6004 12.5971 16.496C13.0542 16.3162 13.6908 16.4322 13.9292 17.0004C14.0163 17.208 14.2555 17.3058 14.4631 17.2186C14.6707 17.1316 14.7685 16.8923 14.6813 16.6848C14.4299 16.0856 13.9379 15.7521 13.4079 15.6437V15.385C13.4079 15.1599 13.2252 14.9771 13.0001 14.9771C12.775 14.9771 12.5923 15.1599 12.5923 15.385V15.6484Z" fill="#36C2FF"></path></g><defs><clippath id="clip0_1616_3846"><rect width="26" height="26" fill="white"></rect></clippath></defs></svg>				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<h3 class="elementor-icon-box-title">
+					<span>
+						Ownership over your coins					</span>
+				</h3>
+									<p class="elementor-icon-box-description">
+						Take full control of your digital assets with Olara Wallet. Our non-custodial approach ensures that you are the sole owner of your private keys and cryptocurrencies.					</p>
+							</div>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-cb68093 e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="cb68093" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInRight&quot;}">
+				<div class="elementor-element elementor-element-f245c53 animated-slow elementor-view-stacked elementor-shape-circle elementor-position-top elementor-mobile-position-top elementor-invisible elementor-widget elementor-widget-icon-box" data-id="f245c53" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;pulse&quot;}" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-box-wrapper">
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon elementor-animation-grow">
+				<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewbox="0 0 26 26" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M13.7123 22.4654H2.10547V0.786865H15.307V3.49637C15.307 3.94688 15.6722 4.31206 16.1227 4.31206H18.8322V12.3026C18.7229 12.3026 18.6135 12.3245 18.5109 12.3685L13.4485 14.5385C13.1486 14.667 12.9541 14.962 12.9541 15.2882V19.3818C12.9541 20.4842 13.2268 21.5357 13.7123 22.4654ZM4.46948 19.5735H12.2044C12.4295 19.5735 12.6123 19.3908 12.6123 19.1657C12.6123 18.9406 12.4295 18.7579 12.2044 18.7579H4.46948C4.2444 18.7579 4.06164 18.9406 4.06164 19.1657C4.06164 19.3908 4.2444 19.5735 4.46948 19.5735ZM13.1929 10.8196H15.4206C15.6458 10.8196 15.8285 10.6368 15.8285 10.4118C15.8285 10.1867 15.6458 10.0039 15.4206 10.0039H13.1929C12.9678 10.0039 12.785 10.1867 12.785 10.4118C12.785 10.6368 12.9678 10.8196 13.1929 10.8196ZM4.46948 10.8196H11.8093C12.0344 10.8196 12.2171 10.6368 12.2171 10.4118C12.2171 10.1867 12.0344 10.0039 11.8093 10.0039H4.46948C4.2444 10.0039 4.06164 10.1867 4.06164 10.4118C4.06164 10.6368 4.2444 10.8196 4.46948 10.8196ZM4.46948 16.6555H12.2044C12.4295 16.6555 12.6123 16.4728 12.6123 16.2477C12.6123 16.0226 12.4295 15.8398 12.2044 15.8398H4.46948C4.2444 15.8398 4.06164 16.0226 4.06164 16.2477C4.06164 16.4728 4.2444 16.6555 4.46948 16.6555ZM4.46948 13.7376H14.9108C15.136 13.7376 15.3187 13.5549 15.3187 13.3297C15.3187 13.1046 15.136 12.9219 14.9108 12.9219H4.46948C4.2444 12.9219 4.06164 13.1046 4.06164 13.3297C4.06164 13.5549 4.2444 13.7376 4.46948 13.7376ZM4.46948 7.90383H8.41567C8.64075 7.90383 8.82351 7.72107 8.82351 7.49599C8.82351 7.27091 8.64075 7.08814 8.41567 7.08814H4.46948C4.2444 7.08814 4.06164 7.27091 4.06164 7.49599C4.06164 7.72107 4.2444 7.90383 4.46948 7.90383ZM10.0219 7.90383H15.4206C15.6458 7.90383 15.8285 7.72107 15.8285 7.49599C15.8285 7.27091 15.6458 7.08814 15.4206 7.08814H10.0219C9.79683 7.08814 9.61406 7.27091 9.61406 7.49599C9.61406 7.72107 9.79683 7.90383 10.0219 7.90383ZM7.71464 4.98587H12.3292C12.5543 4.98587 12.737 4.8031 12.737 4.57802C12.737 4.35289 12.5543 4.17018 12.3292 4.17018H7.71464C7.48956 4.17018 7.30679 4.35289 7.30679 4.57802C7.30679 4.8031 7.48956 4.98587 7.71464 4.98587ZM4.46948 4.98587H5.93843C6.16351 4.98587 6.34627 4.8031 6.34627 4.57802C6.34627 4.35289 6.16351 4.17018 5.93843 4.17018H4.46948C4.2444 4.17018 4.06164 4.35289 4.06164 4.57802C4.06164 4.8031 4.2444 4.98587 4.46948 4.98587ZM18.8322 3.49637H16.3643C16.2309 3.49637 16.1227 3.38819 16.1227 3.25478V0.786865L18.8322 3.49637ZM18.8322 13.1183L23.8947 15.2882V19.3818C23.8947 22.2304 21.8215 24.6919 19.0167 25.1809L18.8322 25.2131L18.6478 25.1809C15.8431 24.6919 13.7698 22.2304 13.7698 19.3818V15.2882L18.8322 13.1183ZM18.9928 13.9596C18.8902 13.9157 18.7742 13.9157 18.6716 13.9596L14.7558 15.6368C14.6058 15.7011 14.5085 15.8486 14.5085 16.0118V19.3907C14.5085 21.882 16.3138 24.0431 18.7579 24.496C18.807 24.505 18.8574 24.505 18.9065 24.496C21.352 24.0431 23.1573 21.882 23.1573 19.3907V16.0118C23.1573 15.8486 23.06 15.7011 22.91 15.6368L18.9928 13.9596ZM18.8322 14.7782L22.3416 16.2808V19.3907C22.3416 21.4655 20.856 23.2682 18.8323 23.6795C16.8097 23.2682 15.3242 21.4654 15.3242 19.3907V16.2808L18.8322 14.7782ZM18.8322 21.607C20.1776 21.607 21.2735 20.511 21.2735 19.1657C21.2735 17.822 20.1776 16.7244 18.8322 16.7244C17.4885 16.7244 16.391 17.822 16.391 19.1657C16.391 20.511 17.4885 21.607 18.8322 21.607ZM17.397 19.523C17.2379 19.3638 17.2379 19.1054 17.397 18.9462C17.5562 18.787 17.8147 18.787 17.9738 18.9462L18.3685 19.3409L19.7067 18.127C19.8734 17.9757 20.1315 17.9883 20.2828 18.155C20.434 18.3217 20.4214 18.5799 20.2547 18.7311L18.6289 20.2061C18.4677 20.3522 18.2203 20.3462 18.0665 20.1923L17.397 19.523Z" fill="#36C2FF"></path></svg>				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<h3 class="elementor-icon-box-title">
+					<span>
+						Crime insurance					</span>
+				</h3>
+									<p class="elementor-icon-box-description">
+						Protect your assets with our comprehensive crime insurance. In the unlikely event of a security breach, our insurance coverage ensures that your funds are safeguarded, giving you peace of mind as you navigate the crypto world.					</p>
+							</div>
+		</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-bc614e9 e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="bc614e9" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;animation&quot;:&quot;fadeInRight&quot;}">
+				<div class="elementor-element elementor-element-31815ab animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="31815ab" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Combines the best features of crypto</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-124b8be animated-slow elementor-invisible elementor-widget elementor-widget-text-editor" data-id="124b8be" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>A robust KYC/AML framework with innovative token rewards, fostering trust and encouraging broader adoption in the MENA region.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-bdc0f95 elementor-widget elementor-widget-elementskit-button" data-id="bdc0f95" data-element_type="widget" data-widget_type="elementskit-button.default">
+				<div class="elementor-widget-container">
+			<div class="ekit-wid-con">		<div class="ekit-btn-wraper">
+							<a href="#" class="elementskit-btn  whitespace--normal">
+					
+					
+					Check all features				</a>
+						</div>
+        </div>		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-1d6731f e-con-full e-flex e-con e-parent" data-id="1d6731f" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+		<div class="elementor-element elementor-element-dd3bd39 animated-slow e-flex e-con-boxed elementor-invisible e-con e-child" data-id="dd3bd39" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInDown&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-c49821c animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="c49821c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Unique App Screens</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-884b0e3 animated-slow elementor-widget-mobile__width-inherit elementor-invisible elementor-widget elementor-widget-text-editor" data-id="884b0e3" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Experience a sleek, intuitive interface with Olara Wallet’s unique app screens.</p>						</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-f33475f e-con-full e-flex e-con e-child" data-id="f33475f" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-c4cef89 app-screens animated-slow elementor-invisible elementor-widget elementor-widget-ucaddon_justified_image_carousel" data-id="c4cef89" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="ucaddon_justified_image_carousel.default">
+				<div class="elementor-widget-container">
+			<!-- start Justified Image Carousel -->
+		<link id="font-awesome-css" href="/wp-content/plugins/unlimited-elements-for-elementor-premium/assets_libraries/font-awesome5/css/fontawesome-all.min.css" type="text/css" rel="stylesheet">
+		<link id="font-awesome-4-shim-css" href="/wp-content/plugins/unlimited-elements-for-elementor-premium/assets_libraries/font-awesome5/css/fontawesome-v4-shims.css" type="text/css" rel="stylesheet">
+		<link id="owl-carousel-css" href="/wp-content/plugins/unlimited-elements-for-elementor-premium/assets_libraries/owl-carousel-new/assets/owl.carousel.css" type="text/css" rel="stylesheet">
+		<link id="fancybox-css" href="/wp-content/plugins/unlimited-elements-for-elementor-premium/assets_libraries/fancybox3/jquery.fancybox.min.css" type="text/css" rel="stylesheet">
+
+			<style type="text/css">/* widget: Justified Image Carousel */
+
+#uc_justified_image_carousel_elementor_c4cef89{
+  min-height:1px;
+}
+
+#uc_justified_image_carousel_elementor_c4cef89-wrapper
+{
+  min-height:1px;
+}
+
+#uc_justified_image_carousel_elementor_c4cef89 img{
+  height:488px !important;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  #uc_justified_image_carousel_elementor_c4cef89 img{
+    height: !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  
+  #uc_justified_image_carousel_elementor_c4cef89 img{
+    height:376px !important;
+  }
+  
+      #uc_justified_image_carousel_elementor_c4cef89 img{
+      object-fit: cover;
+      width: 100% !important;
+    }
+  }
+
+
+#uc_justified_image_carousel_elementor_c4cef89 .ue-item
+{
+  overflow:hidden;
+}
+
+#uc_justified_image_carousel_elementor_c4cef89 .item_title
+{
+      position:absolute;  
+    bottom:0;
+    width:100%;
+}
+
+
+#uc_justified_image_carousel_elementor_c4cef89 .owl-nav .owl-prev{
+    position:absolute;
+    /* left:0pxpx; */
+    display:inline-block;
+    text-align:center;
+}
+#uc_justified_image_carousel_elementor_c4cef89 .owl-nav .owl-next{
+  position:absolute;
+  /* right:0pxpx; */
+  display:inline-block;
+  text-align:center;
+}
+
+
+
+.fancybox-button,
+.fancybox-button svg path{	
+  color: ;
+}
+.fancybox-button{
+  background-color: ;
+}
+
+.fancybox-button:hover,
+.fancybox-button:hover svg path{	
+  color: ;
+}
+.fancybox-button:hover,
+.fancybox-button:focus{
+  background-color: ;
+}
+
+.fancybox-bg{
+  background: ;
+}
+
+.fancybox-is-open .fancybox-bg{
+  opacity: 0.9 !important;
+}
+
+  .fancybox-infobar{
+	display: none !important;
+  }
+	
+
+  .fancybox-button--zoom{
+	display: none !important;
+  }
+	
+
+  .fancybox-button--play{
+	display: none !important;
+  }
+	
+
+  .fancybox-button--thumbs{
+	display: none !important;
+  }
+	
+
+  .fancybox-button--close{
+	display: none !important;
+  }
+	
+
+  .fancybox-navigation{
+	display: none !important;
+  }
+
+.fancybox-caption__body{
+  color: ;
+}</style>
+
+			<div id="uc_justified_image_carousel_elementor_c4cef89-wrapper">
+  <div id="uc_justified_image_carousel_elementor_c4cef89" class="owl-carousel owl-theme uc-items-wrapper  uc-remote-parent " data-lightbox="false" data-use-elementor-lightbox="false" data-constant-width="true" data-remoteid="first" data-widgetname="Justified Image Carousel">
+      <div class="item ue-item" style="position:relative;">
+  
+      <a href="javascript:void(0);"> 
+  	
+  
+    
+    <img loading="lazy" decoding="async" src="/wp-content/uploads/2024/07/img_unique_app_screens_01.png" alt="img_unique_app_screens_01" width="227" height="488">
+    
+  </a>
+  
+  	
+  
+</div>
+<div class="item ue-item" style="position:relative;">
+  
+      <a href="javascript:void(0);"> 
+  	
+  
+    
+    <img loading="lazy" decoding="async" src="/wp-content/uploads/2024/07/img_unique_app_screens_02.png" alt="img_unique_app_screens_02" width="227" height="488">
+    
+  </a>
+  
+  	
+  
+</div>
+<div class="item ue-item" style="position:relative;">
+  
+      <a href="javascript:void(0);"> 
+  	
+  
+    
+    <img loading="lazy" decoding="async" src="/wp-content/uploads/2024/07/img_unique_app_screens_03.png" alt="img_unique_app_screens_03" width="228" height="488">
+    
+  </a>
+  
+  	
+  
+</div>
+<div class="item ue-item" style="position:relative;">
+  
+      <a href="javascript:void(0);"> 
+  	
+  
+    
+    <img loading="lazy" decoding="async" src="/wp-content/uploads/2024/07/img_unique_app_screens_04.png" alt="img_unique_app_screens_04" width="227" height="488">
+    
+  </a>
+  
+  	
+  
+</div>
+<div class="item ue-item" style="position:relative;">
+  
+      <a href="javascript:void(0);"> 
+  	
+  
+    
+    <img loading="lazy" decoding="async" src="/wp-content/uploads/2024/07/img_unique_app_screens_05.png" alt="img_unique_app_screens_05" width="227" height="488">
+    
+  </a>
+  
+  	
+  
+</div>
+<div class="item ue-item" style="position:relative;">
+  
+      <a href="javascript:void(0);"> 
+  	
+  
+    
+    <img loading="lazy" decoding="async" src="/wp-content/uploads/2024/07/img_unique_app_screens_06.png" alt="img_unique_app_screens_06" width="227" height="488">
+    
+  </a>
+  
+  	
+  
+</div>
+<div class="item ue-item" style="position:relative;">
+  
+      <a href="javascript:void(0);"> 
+  	
+  
+    
+    <img loading="lazy" decoding="async" src="/wp-content/uploads/2024/07/img_unique_app_screens_07.png" alt="img_unique_app_screens_07" width="227" height="488">
+    
+  </a>
+  
+  	
+  
+</div>
+ 
+  </div>
+</div>
+			<!-- end Justified Image Carousel -->		</div>
+				</div>
+				<div class="elementor-element elementor-element-5374884 animated-slow elementor-invisible elementor-widget elementor-widget-ucaddon_arrow_navigation" data-id="5374884" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="ucaddon_arrow_navigation.default">
+				<div class="elementor-widget-container">
+			<!-- start Remote Arrows -->
+
+			<style type="text/css">/* widget: Remote Arrows */
+
+.ue-remote-carousel-navigation-wrapper
+{
+  display:flex;
+}
+
+.ue-remote-carousel-navigation-wrapper .ue-remote-arrow
+{
+  border:none;
+  border-color:transparent;
+}
+
+.ue-remote-carousel-navigation-wrapper .ue-remote-arrow:hover
+{
+  background-color:transparent;
+ 
+}
+
+
+#uc_arrow_navigation_elementor_5374884
+{
+  display:inline-flex;
+}
+
+#uc_arrow_navigation_elementor_5374884 .ue-remote-arrow
+{
+  flex-grow:0;
+  flex-shrink:0;
+  transition:0.3s;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  line-height:1em;
+  cursor:pointer;
+}
+
+
+#uc_arrow_navigation_elementor_5374884 .ue-remote-arrow .ue-carousel-nav-icon
+{
+  transition:0.3s;
+  line-height:1em;
+}
+
+#uc_arrow_navigation_elementor_5374884 .ue-remote-arrow .ue-carousel-nav-icon svg
+{
+  transition:0.3s;
+  height:1em;
+  width:1em;
+}
+
+
+#uc_arrow_navigation_elementor_5374884 .ue-carousel-nav-label
+{
+  transition:0.3s;
+}
+
+#uc_arrow_navigation_elementor_5374884 .uc-disabled{
+	opacity: 0.3;
+}</style>
+
+			<div class="ue-remote-carousel-navigation-wrapper">
+<div id="uc_arrow_navigation_elementor_5374884" class="ue-remote-carousel-navigation" data-parentid="first">
+  
+  
+  
+	<div class="ue-remote-arrow ue-carousel-prev ">
+    <div class="ue-carousel-nav-icon"><i class="fas fa-chevron-left"></i></div>
+    	
+  </div>   
+	
+
+  
+ 
+
+  <div class="ue-remote-arrow ue-carousel-next ">
+        <div class="ue-carousel-nav-icon"><i class="fas fa-chevron-right"></i></div>
+  </div>
+  
+  
+</div>
+</div>
+			<!-- end Remote Arrows -->		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-13c62cf e-con-full animated-slow e-flex elementor-invisible e-con e-parent" data-id="13c62cf" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}" data-core-v316-plus="true">
+		<div class="elementor-element elementor-element-29fec58 animated-slow e-flex e-con-boxed elementor-invisible e-con e-child" data-id="29fec58" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;zoomIn&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-70d2489 elementor-widget elementor-widget-ucaddon_blox_play_button" data-id="70d2489" data-element_type="widget" data-widget_type="ucaddon_blox_play_button.default">
+				<div class="elementor-widget-container">
+			<!-- start Video Play Button -->
+		<link id="lity-css" href="/wp-content/plugins/unlimited-elements-for-elementor-premium/assets_libraries/lity/lity.min.css" type="text/css" rel="stylesheet">
+
+			<style type="text/css">/* widget: Video Play Button */
+
+#uc_blox_play_button_elementor_70d2489
+{
+ width:100%;
+}
+.container_uc_blox_play_button_elementor_70d2489{
+  display: flex;
+  justify-content: center;
+}
+
+#uc_blox_play_button_elementor_70d2489 a
+{
+  display:inline-block;
+  transition:0.5s;
+  text-decoration:none;
+}
+.ue_play_button{text-align:center;}
+
+#uc_blox_play_button_elementor_70d2489 a:hover
+{
+  transform:scale(1.1,1.1);
+}
+
+#uc_blox_play_button_elementor_70d2489 a span.video-button
+{
+  display:inline-block;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; 
+  display:flex;
+  position:relative;
+  transition:0.3s;
+  line-height:1em;
+}
+
+.ue-play-bg{
+  background-size:cover;
+  background-position:center;
+  background-repeat:none;
+  max-width:100%; 
+}
+
+#uc_blox_play_button_elementor_70d2489 a span.video-button svg
+{
+  height:1em;
+  width:1em;
+}
+
+#uc_blox_play_button_elementor_70d2489 i
+{
+
+  vertical-align:middle;
+  transition:0.3s;
+}
+
+#uc_blox_play_button_elementor_70d2489 a span:before
+{
+  content: '';
+    display: inline-block;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    bottom: -2px;
+    right: -2px;
+    border-radius: inherit;
+    border: 1px solid #3BFBC3;
+    -webkit-animation: btnIconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both infinite;
+    animation: btnIconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both infinite;
+    border-color: #3BFBC3;
+}
+
+@keyframes btnIconRipple {
+  0% {
+    border-width: 4px;
+            transform: scale(1);
+  }
+  80% {
+    border-width: 1px;
+            transform: scale(1.35);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lity-close{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:0!important;
+  color:;
+  font-size: !important;
+  background-color:;
+      }
+.lity-close *{
+  transition: all 200ms;
+}
+.lity-close:hover{
+  background-color:;
+  color:;
+}
+@media (max-width: 767px) {
+ .lity-close{
+    font-size: !important;
+  }
+}
+@media (max-width: 1024px) {
+ .lity-close{
+    font-size: !important;
+  }
+}</style>
+
+				
+     <div id="uc_blox_play_button_elementor_70d2489" class="ue_play_button" data-path="//www.youtube.com/watch?v=">
+          <a href="//www.youtube.com/watch?v=pvZ5Lvom470&autoplay=0&mute=1" class="button_uc_blox_play_button_elementor_70d2489" data-lity>
+         <span class="video-button">
+          <i class="fas fa-play"></i>
+  </span>  
+</a>
+</div>
+
+			<!-- end Video Play Button -->		</div>
+				</div>
+				<div class="elementor-element elementor-element-31ef3ae animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="31ef3ae" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">How it’s work</h2>		</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-5fabf20 e-flex e-con-boxed e-con e-parent" data-id="5fabf20" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-70aaaea e-flex e-con-boxed e-con e-child" data-id="70aaaea" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-45a12cd e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="45a12cd" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;}">
+				<div class="elementor-element elementor-element-130b51e elementor-widget-mobile__width-initial elementor-widget elementor-widget-image" data-id="130b51e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="354" height="362" src="/wp-content/uploads/2024/07/imges_powerful_tool_for_crypto_01.png" class="attachment-full size-full wp-image-1464" alt="" srcset="/wp-content/uploads/2024/07/imges_powerful_tool_for_crypto_01.png 354w, /wp-content/uploads/2024/07/imges_powerful_tool_for_crypto_01-293x300.png 293w" sizes="(max-width: 354px) 100vw, 354px" style="width:100%;height:102.26%;max-width:354px">															</div>
+				</div>
+				<div class="elementor-element elementor-element-2de9e03 elementor-absolute elementor-widget-mobile__width-initial elementor-widget elementor-widget-image" data-id="2de9e03" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="188" height="192" src="/wp-content/uploads/2024/07/imges_powerful_tool_for_crypto_02.png" class="attachment-full size-full wp-image-1465" alt="" style="width:100%;height:102.13%;max-width:188px">															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-bb09977 e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="bb09977" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;animation&quot;:&quot;fadeInRight&quot;}">
+				<div class="elementor-element elementor-element-efda3dc animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="efda3dc" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Powerful tool for Crypto</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ff39475 animated-slow elementor-invisible elementor-widget elementor-widget-text-editor" data-id="ff39475" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Curated news feeds (ChainReport), AI-powered portfolio analysis, risk assessment, and hyper-localized crowdsourced data insights to guide users.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-73f8f4c elementor-widget elementor-widget-elementskit-button" data-id="73f8f4c" data-element_type="widget" data-widget_type="elementskit-button.default">
+				<div class="elementor-widget-container">
+			<div class="ekit-wid-con">		<div class="ekit-btn-wraper">
+							<a href="#" class="elementskit-btn  whitespace--normal">
+					
+					
+					Read More				</a>
+						</div>
+        </div>		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-4835787 e-flex e-con-boxed e-con e-parent" data-id="4835787" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-4c5074e elementor-widget__width-initial elementor-absolute section-shadow elementor-widget elementor-widget-image" data-id="4c5074e" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="750" height="750" src="/wp-content/uploads/2024/07/bg_shadows-1024x1024.png" class="attachment-large size-large wp-image-1671" alt="" srcset="/wp-content/uploads/2024/07/bg_shadows-1024x1024.png 1024w, /wp-content/uploads/2024/07/bg_shadows-300x300.png 300w, /wp-content/uploads/2024/07/bg_shadows-150x150.png 150w, /wp-content/uploads/2024/07/bg_shadows-768x768.png 768w, /wp-content/uploads/2024/07/bg_shadows.png 1279w" sizes="(max-width: 750px) 100vw, 750px" style="width:100%;height:100%;max-width:1279px">															</div>
+				</div>
+		<div class="elementor-element elementor-element-f67f1d0 e-flex e-con-boxed e-con e-child" data-id="f67f1d0" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-e83a555 e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="e83a555" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;}">
+				<div class="elementor-element elementor-element-bbdec14 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="bbdec14" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Frequently asked questions</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-47e5f22 animated-slow elementor-invisible elementor-widget elementor-widget-text-editor" data-id="47e5f22" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Got questions? We’ve got answers. Our comprehensive FAQ section covers everything from basic setup to advanced features, ensuring that you have all the information you need to make the most of Olara Wallet.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-75e5611 animated-slow elementor-invisible elementor-widget elementor-widget-ucaddon_uc_icon_accordion" data-id="75e5611" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="ucaddon_uc_icon_accordion.default">
+				<div class="elementor-widget-container">
+			<!-- start Icon Accordion -->
+
+			<style type="text/css">/* widget: Icon Accordion */
+
+#uc_uc_icon_accordion_elementor_75e5611 *{
+	box-sizing: border-box;
+}
+#uc_uc_icon_accordion_elementor_75e5611 .uc_container .uc-heading
+{
+	cursor:pointer;
+    display:flex;
+    align-items:center;
+    transition:0.3s;
+}
+#uc_uc_icon_accordion_elementor_75e5611 .uc_container .uc-heading span.bbb
+{
+	display:block;
+	
+}
+#uc_uc_icon_accordion_elementor_75e5611 .uc_ac_box.uc-item-active span.uc_dactive
+{
+	display:none;
+}
+#uc_uc_icon_accordion_elementor_75e5611 .uc_ac_box:not(.uc-item-active) span.uc_active
+{
+	display:none;
+}
+
+#uc_uc_icon_accordion_elementor_75e5611 .ue_icon_holder,
+#uc_uc_icon_accordion_elementor_75e5611 .ue_icon_spacing
+{
+  flex-grow:0;
+  flex-shrink:0; 
+}
+#uc_uc_icon_accordion_elementor_75e5611 .uc_content{
+	display: none;
+}
+#uc_uc_icon_accordion_elementor_75e5611 .ue_icon
+{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  line-height:1em;
+  transition:0.3s;
+}
+
+#uc_uc_icon_accordion_elementor_75e5611 .ue_icon svg
+{
+  height:1em;
+  width:1em;
+}
+
+#uc_uc_icon_accordion_elementor_75e5611 .ue_expand_inside
+{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  line-height:1em;
+}
+
+#uc_uc_icon_accordion_elementor_75e5611 .ue_expand_inside svg
+{
+  height:1em;
+  width:1em;
+}
+
+#uc_uc_icon_accordion_elementor_75e5611 .ue_expand,
+#uc_uc_icon_accordion_elementor_75e5611 .ue_expand_spacing
+{
+  flex-grow:0;
+  flex-shrink:0;
+}
+
+#uc_uc_icon_accordion_elementor_75e5611 .ue_title
+{
+  flex-grow:1;
+}
+
+#uc_uc_icon_accordion_elementor_75e5611 .uc_ac_box:last-child
+{
+  margin-bottom:0px;
+}
+
+#uc_uc_icon_accordion_elementor_75e5611 .uc_ac_box
+{
+  overflow:hidden;
+}
+#uc_uc_icon_accordion_elementor_75e5611_item1 .ue_icon
+{
+  background-color:;
+}
+
+#uc_uc_icon_accordion_elementor_75e5611_item1 .ue-heading
+{
+  background-color:;
+}
+#uc_uc_icon_accordion_elementor_75e5611_item2 .ue_icon
+{
+  background-color:;
+}
+
+#uc_uc_icon_accordion_elementor_75e5611_item2 .ue-heading
+{
+  background-color:;
+}
+#uc_uc_icon_accordion_elementor_75e5611_item3 .ue_icon
+{
+  background-color:;
+}
+
+#uc_uc_icon_accordion_elementor_75e5611_item3 .ue-heading
+{
+  background-color:;
+}</style>
+
+			<div class="uc_material_accordion " id="uc_uc_icon_accordion_elementor_75e5611" data-name="" data-closeothers="true">
+    	<div class="uc_container">
+            
+
+<div class="uc_ac_box ">
+  <div class="uc-heading uc_trigger">
+    
+        <div class="ue_icon_holder">
+      <div class="ue_icon"><img src="https://olarawallet.com/wp-content/uploads/2024/07/count-01.svg" class="uc-svg-image"></div>
+    </div>
+    <div class="ue_icon_spacing"></div>
+        
+    <div class="ue_title">Is it safe to use crypto app?</div>
+    
+    
+        <div class="ue_expand_spacing"></div>
+    <div class="ue_expand">
+      <div class="ue_expand_inside">
+      <span class="uc_dactive bbb ue_accordion_icon"><i class="fas fa-angle-up"></i></span>
+      <span class="uc_active bbb ue_accordion_icon"><i class="fas fa-angle-down"></i></span>
+      </div>
+    </div>
+        
+  </div>
+  <!-- end of heading -->
+  
+  
+  <div class="uc_content">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+     
+    
+     
+    
+  </div>
+</div>
+
+
+<div class="uc_ac_box ">
+  <div class="uc-heading uc_trigger">
+    
+        <div class="ue_icon_holder">
+      <div class="ue_icon"><img src="https://olarawallet.com/wp-content/uploads/2024/07/count-02.svg" class="uc-svg-image"></div>
+    </div>
+    <div class="ue_icon_spacing"></div>
+        
+    <div class="ue_title">How do I connect  to my crypto wallet?</div>
+    
+    
+        <div class="ue_expand_spacing"></div>
+    <div class="ue_expand">
+      <div class="ue_expand_inside">
+      <span class="uc_dactive bbb ue_accordion_icon"><i class="fas fa-angle-up"></i></span>
+      <span class="uc_active bbb ue_accordion_icon"><i class="fas fa-angle-down"></i></span>
+      </div>
+    </div>
+        
+  </div>
+  <!-- end of heading -->
+  
+  
+  <div class="uc_content">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+     
+    
+     
+    
+  </div>
+</div>
+
+
+<div class="uc_ac_box ">
+  <div class="uc-heading uc_trigger">
+    
+        <div class="ue_icon_holder">
+      <div class="ue_icon"><img src="https://olarawallet.com/wp-content/uploads/2024/07/count-03.svg" class="uc-svg-image"></div>
+    </div>
+    <div class="ue_icon_spacing"></div>
+        
+    <div class="ue_title">How do you make money with crypto app?</div>
+    
+    
+        <div class="ue_expand_spacing"></div>
+    <div class="ue_expand">
+      <div class="ue_expand_inside">
+      <span class="uc_dactive bbb ue_accordion_icon"><i class="fas fa-angle-up"></i></span>
+      <span class="uc_active bbb ue_accordion_icon"><i class="fas fa-angle-down"></i></span>
+      </div>
+    </div>
+        
+  </div>
+  <!-- end of heading -->
+  
+  
+  <div class="uc_content">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+     
+    
+     
+    
+  </div>
+</div>
+
+        </div>
+</div>
+			<!-- end Icon Accordion -->		</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-ff6b535 e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="ff6b535" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;zoomInRight&quot;}">
+				<div class="elementor-element elementor-element-ae5adfb elementor-widget__width-inherit elementor-widget elementor-widget-image" data-id="ae5adfb" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="502" height="631" src="/wp-content/uploads/2024/07/img_faq.png" class="attachment-full size-full wp-image-1478" alt="" srcset="/wp-content/uploads/2024/07/img_faq.png 502w, /wp-content/uploads/2024/07/img_faq-239x300.png 239w" sizes="(max-width: 502px) 100vw, 502px" style="width:100%;height:125.7%;max-width:502px">															</div>
+				</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-90ed45e e-flex e-con-boxed e-con e-parent" data-id="90ed45e" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-77564dc animated-slow e-flex e-con-boxed elementor-invisible e-con e-child" data-id="77564dc" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInDown&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-bf84754 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="bf84754" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Tutorial</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-17f81fb animated-slow elementor-invisible elementor-widget elementor-widget-text-editor" data-id="17f81fb" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>New to crypto or just need a refresher? Our step-by-step tutorials guide you through every aspect of using Olara Wallet.</p>						</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-6fbaeb9 animated-slow e-flex e-con-boxed elementor-invisible e-con e-child" data-id="6fbaeb9" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-158dfd9 e-con-full e-flex e-con e-child" data-id="158dfd9" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-75cecc1 e-flex e-con-boxed e-con e-child" data-id="75cecc1" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-ec69871 elementor-widget elementor-widget-ucaddon_blox_play_button" data-id="ec69871" data-element_type="widget" data-widget_type="ucaddon_blox_play_button.default">
+				<div class="elementor-widget-container">
+			<!-- start Video Play Button -->
+
+			<style type="text/css">/* widget: Video Play Button */
+
+#uc_blox_play_button_elementor_ec69871
+{
+ width:100%;
+}
+.container_uc_blox_play_button_elementor_ec69871{
+  display: flex;
+  justify-content: center;
+}
+
+#uc_blox_play_button_elementor_ec69871 a
+{
+  display:inline-block;
+  transition:0.5s;
+  text-decoration:none;
+}
+.ue_play_button{text-align:center;}
+
+#uc_blox_play_button_elementor_ec69871 a:hover
+{
+  transform:scale(1.1,1.1);
+}
+
+#uc_blox_play_button_elementor_ec69871 a span.video-button
+{
+  display:inline-block;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; 
+  display:flex;
+  position:relative;
+  transition:0.3s;
+  line-height:1em;
+}
+
+.ue-play-bg{
+  background-size:cover;
+  background-position:center;
+  background-repeat:none;
+  max-width:100%; 
+}
+
+#uc_blox_play_button_elementor_ec69871 a span.video-button svg
+{
+  height:1em;
+  width:1em;
+}
+
+#uc_blox_play_button_elementor_ec69871 i
+{
+
+  vertical-align:middle;
+  transition:0.3s;
+}
+
+
+
+.ue-play-bg
+{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.lity-close{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:0!important;
+  color:;
+  font-size: !important;
+  background-color:;
+      }
+.lity-close *{
+  transition: all 200ms;
+}
+.lity-close:hover{
+  background-color:;
+  color:;
+}
+@media (max-width: 767px) {
+ .lity-close{
+    font-size: !important;
+  }
+}
+@media (max-width: 1024px) {
+ .lity-close{
+    font-size: !important;
+  }
+}</style>
+
+			  <div class="container_uc_blox_play_button_elementor_ec69871">
+     <div class="ue-play-bg" id="ue-play-bg_uc_blox_play_button_elementor_ec69871" style="--imgurl: url(/wp-content/uploads/2024/07/bg_img_tutorial_video_01.png); background-image: linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17)), var(--imgurl);">
+	
+     <div id="uc_blox_play_button_elementor_ec69871" class="ue_play_button" data-path="//www.youtube.com/watch?v=">
+          <a href="//www.youtube.com/watch?v=pvZ5Lvom470&autoplay=0&mute=1" class="button_uc_blox_play_button_elementor_ec69871" data-lity>
+         <span class="video-button">
+          <i class="icon icon-play-button1"></i>
+  </span>  
+</a>
+</div>
+</div>
+</div>
+			<!-- end Video Play Button -->		</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-2b7dad6 e-flex e-con-boxed e-con e-child" data-id="2b7dad6" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-5823ef3 elementor-widget elementor-widget-heading" data-id="5823ef3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">How to sell and receive token</h3>		</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-08d232f e-con-full e-flex e-con e-child" data-id="08d232f" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-3a2c70d e-flex e-con-boxed e-con e-child" data-id="3a2c70d" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-cf784df elementor-widget elementor-widget-ucaddon_blox_play_button" data-id="cf784df" data-element_type="widget" data-widget_type="ucaddon_blox_play_button.default">
+				<div class="elementor-widget-container">
+			<!-- start Video Play Button -->
+
+			<style type="text/css">/* widget: Video Play Button */
+
+#uc_blox_play_button_elementor_cf784df
+{
+ width:100%;
+}
+.container_uc_blox_play_button_elementor_cf784df{
+  display: flex;
+  justify-content: center;
+}
+
+#uc_blox_play_button_elementor_cf784df a
+{
+  display:inline-block;
+  transition:0.5s;
+  text-decoration:none;
+}
+.ue_play_button{text-align:center;}
+
+#uc_blox_play_button_elementor_cf784df a:hover
+{
+  transform:scale(1.1,1.1);
+}
+
+#uc_blox_play_button_elementor_cf784df a span.video-button
+{
+  display:inline-block;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; 
+  display:flex;
+  position:relative;
+  transition:0.3s;
+  line-height:1em;
+}
+
+.ue-play-bg{
+  background-size:cover;
+  background-position:center;
+  background-repeat:none;
+  max-width:100%; 
+}
+
+#uc_blox_play_button_elementor_cf784df a span.video-button svg
+{
+  height:1em;
+  width:1em;
+}
+
+#uc_blox_play_button_elementor_cf784df i
+{
+
+  vertical-align:middle;
+  transition:0.3s;
+}
+
+
+
+.ue-play-bg
+{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.lity-close{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:0!important;
+  color:;
+  font-size: !important;
+  background-color:;
+      }
+.lity-close *{
+  transition: all 200ms;
+}
+.lity-close:hover{
+  background-color:;
+  color:;
+}
+@media (max-width: 767px) {
+ .lity-close{
+    font-size: !important;
+  }
+}
+@media (max-width: 1024px) {
+ .lity-close{
+    font-size: !important;
+  }
+}</style>
+
+			  <div class="container_uc_blox_play_button_elementor_cf784df">
+     <div class="ue-play-bg" id="ue-play-bg_uc_blox_play_button_elementor_cf784df" style="--imgurl: url(/wp-content/uploads/2024/07/bg_img_tutorial_video_02.png); background-image: linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17)), var(--imgurl);">
+	
+     <div id="uc_blox_play_button_elementor_cf784df" class="ue_play_button" data-path="//www.youtube.com/watch?v=">
+          <a href="//www.youtube.com/watch?v=pvZ5Lvom470&autoplay=0&mute=1" class="button_uc_blox_play_button_elementor_cf784df" data-lity>
+         <span class="video-button">
+          <i class="icon icon-play-button1"></i>
+  </span>  
+</a>
+</div>
+</div>
+</div>
+			<!-- end Video Play Button -->		</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-ff19f01 e-flex e-con-boxed e-con e-child" data-id="ff19f01" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-54fc42c elementor-widget elementor-widget-heading" data-id="54fc42c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">How to scan Qr codes</h3>		</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-12f1317 e-con-full e-flex e-con e-child" data-id="12f1317" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-9d9c69b e-flex e-con-boxed e-con e-child" data-id="9d9c69b" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-8133a81 elementor-widget elementor-widget-ucaddon_blox_play_button" data-id="8133a81" data-element_type="widget" data-widget_type="ucaddon_blox_play_button.default">
+				<div class="elementor-widget-container">
+			<!-- start Video Play Button -->
+
+			<style type="text/css">/* widget: Video Play Button */
+
+#uc_blox_play_button_elementor_8133a81
+{
+ width:100%;
+}
+.container_uc_blox_play_button_elementor_8133a81{
+  display: flex;
+  justify-content: center;
+}
+
+#uc_blox_play_button_elementor_8133a81 a
+{
+  display:inline-block;
+  transition:0.5s;
+  text-decoration:none;
+}
+.ue_play_button{text-align:center;}
+
+#uc_blox_play_button_elementor_8133a81 a:hover
+{
+  transform:scale(1.1,1.1);
+}
+
+#uc_blox_play_button_elementor_8133a81 a span.video-button
+{
+  display:inline-block;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; 
+  display:flex;
+  position:relative;
+  transition:0.3s;
+  line-height:1em;
+}
+
+.ue-play-bg{
+  background-size:cover;
+  background-position:center;
+  background-repeat:none;
+  max-width:100%; 
+}
+
+#uc_blox_play_button_elementor_8133a81 a span.video-button svg
+{
+  height:1em;
+  width:1em;
+}
+
+#uc_blox_play_button_elementor_8133a81 i
+{
+
+  vertical-align:middle;
+  transition:0.3s;
+}
+
+
+
+.ue-play-bg
+{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.lity-close{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:0!important;
+  color:;
+  font-size: !important;
+  background-color:;
+      }
+.lity-close *{
+  transition: all 200ms;
+}
+.lity-close:hover{
+  background-color:;
+  color:;
+}
+@media (max-width: 767px) {
+ .lity-close{
+    font-size: !important;
+  }
+}
+@media (max-width: 1024px) {
+ .lity-close{
+    font-size: !important;
+  }
+}</style>
+
+			  <div class="container_uc_blox_play_button_elementor_8133a81">
+     <div class="ue-play-bg" id="ue-play-bg_uc_blox_play_button_elementor_8133a81" style="--imgurl: url(/wp-content/uploads/2024/07/bg_img_tutorial_video_03.png); background-image: linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17)), var(--imgurl);">
+	
+     <div id="uc_blox_play_button_elementor_8133a81" class="ue_play_button" data-path="//www.youtube.com/watch?v=">
+          <a href="//www.youtube.com/watch?v=pvZ5Lvom470&autoplay=0&mute=1" class="button_uc_blox_play_button_elementor_8133a81" data-lity>
+         <span class="video-button">
+          <i class="icon icon-play-button1"></i>
+  </span>  
+</a>
+</div>
+</div>
+</div>
+			<!-- end Video Play Button -->		</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-d6c0039 e-flex e-con-boxed e-con e-child" data-id="d6c0039" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-4eb76a3 elementor-widget elementor-widget-heading" data-id="4eb76a3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Lorem Ipsum is simply dummy text </h3>		</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-2e794d6 e-con-full e-flex e-con e-child" data-id="2e794d6" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-2561308 e-flex e-con-boxed e-con e-child" data-id="2561308" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-dbf709a elementor-widget elementor-widget-ucaddon_blox_play_button" data-id="dbf709a" data-element_type="widget" data-widget_type="ucaddon_blox_play_button.default">
+				<div class="elementor-widget-container">
+			<!-- start Video Play Button -->
+
+			<style type="text/css">/* widget: Video Play Button */
+
+#uc_blox_play_button_elementor_dbf709a
+{
+ width:100%;
+}
+.container_uc_blox_play_button_elementor_dbf709a{
+  display: flex;
+  justify-content: center;
+}
+
+#uc_blox_play_button_elementor_dbf709a a
+{
+  display:inline-block;
+  transition:0.5s;
+  text-decoration:none;
+}
+.ue_play_button{text-align:center;}
+
+#uc_blox_play_button_elementor_dbf709a a:hover
+{
+  transform:scale(1.1,1.1);
+}
+
+#uc_blox_play_button_elementor_dbf709a a span.video-button
+{
+  display:inline-block;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; 
+  display:flex;
+  position:relative;
+  transition:0.3s;
+  line-height:1em;
+}
+
+.ue-play-bg{
+  background-size:cover;
+  background-position:center;
+  background-repeat:none;
+  max-width:100%; 
+}
+
+#uc_blox_play_button_elementor_dbf709a a span.video-button svg
+{
+  height:1em;
+  width:1em;
+}
+
+#uc_blox_play_button_elementor_dbf709a i
+{
+
+  vertical-align:middle;
+  transition:0.3s;
+}
+
+
+
+.ue-play-bg
+{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.lity-close{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:0!important;
+  color:;
+  font-size: !important;
+  background-color:;
+      }
+.lity-close *{
+  transition: all 200ms;
+}
+.lity-close:hover{
+  background-color:;
+  color:;
+}
+@media (max-width: 767px) {
+ .lity-close{
+    font-size: !important;
+  }
+}
+@media (max-width: 1024px) {
+ .lity-close{
+    font-size: !important;
+  }
+}</style>
+
+			  <div class="container_uc_blox_play_button_elementor_dbf709a">
+     <div class="ue-play-bg" id="ue-play-bg_uc_blox_play_button_elementor_dbf709a" style="--imgurl: url(/wp-content/uploads/2024/07/bg_img_tutorial_video_04.png); background-image: linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17)), var(--imgurl);">
+	
+     <div id="uc_blox_play_button_elementor_dbf709a" class="ue_play_button" data-path="//www.youtube.com/watch?v=">
+          <a href="//www.youtube.com/watch?v=pvZ5Lvom470&autoplay=0&mute=1" class="button_uc_blox_play_button_elementor_dbf709a" data-lity>
+         <span class="video-button">
+          <i class="icon icon-play-button1"></i>
+  </span>  
+</a>
+</div>
+</div>
+</div>
+			<!-- end Video Play Button -->		</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-99bf64c e-flex e-con-boxed e-con e-child" data-id="99bf64c" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-2d9ce8d elementor-widget elementor-widget-heading" data-id="2d9ce8d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Lorem Ipsum is simply dummy text </h3>		</div>
+				</div>
+					</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-65473eb elementor-widget__width-initial elementor-absolute section-shadow elementor-widget elementor-widget-image" data-id="65473eb" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="750" height="750" src="/wp-content/uploads/2024/07/bg_shadows-1024x1024.png" class="attachment-large size-large wp-image-1671" alt="" srcset="/wp-content/uploads/2024/07/bg_shadows-1024x1024.png 1024w, /wp-content/uploads/2024/07/bg_shadows-300x300.png 300w, /wp-content/uploads/2024/07/bg_shadows-150x150.png 150w, /wp-content/uploads/2024/07/bg_shadows-768x768.png 768w, /wp-content/uploads/2024/07/bg_shadows.png 1279w" sizes="(max-width: 750px) 100vw, 750px" style="width:100%;height:100%;max-width:1279px">															</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-7d518ed e-flex e-con-boxed e-con e-parent" data-id="7d518ed" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-47c53ab e-flex e-con-boxed e-con e-child" data-id="47c53ab" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-d75fbdd e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="d75fbdd" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;animation&quot;:&quot;bounceInLeft&quot;}">
+				<div class="elementor-element elementor-element-0754525 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="0754525" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Olara is available for  App Store & Play Store</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1e8d780 animated-slow elementor-invisible elementor-widget elementor-widget-text-editor" data-id="1e8d780" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Get started with Olara Wallet today! Download our app from the App Store or Play Store and join a community of users who are taking control of their crypto assets with confidence and ease.</p>						</div>
+				</div>
+		<div class="elementor-element elementor-element-9b6eef1 e-flex e-con-boxed e-con e-child" data-id="9b6eef1" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d773b28 elementor-widget elementor-widget-image" data-id="d773b28" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="#">
+							<img loading="lazy" decoding="async" width="150" height="50" src="/wp-content/uploads/2024/07/btn_apple_download.svg" class="attachment-full size-full wp-image-1523" alt="" style="width:100%;height:33.33%;max-width:150px">								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-88e1155 elementor-widget elementor-widget-image" data-id="88e1155" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="#">
+							<img loading="lazy" decoding="async" width="150" height="50" src="/wp-content/uploads/2024/07/btn_Google_download.svg" class="attachment-full size-full wp-image-1524" alt="" style="width:100%;height:33.33%;max-width:150px">								</a>
+															</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-5aac2a0 e-con-full e-flex elementor-invisible e-con e-child" data-id="5aac2a0" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;zoomInUp&quot;}">
+				<div class="elementor-element elementor-element-25ce877 animated-slow elementor-widget__width-inherit elementor-invisible elementor-widget elementor-widget-image" data-id="25ce877" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="570" height="565" src="/wp-content/uploads/2024/07/img_app_store_play_store.svg" class="attachment-full size-full wp-image-1531" alt="" style="width:100%;height:99.12%;max-width:570px">															</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-d19b7f0 elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-image" data-id="d19b7f0" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="248" height="1024" src="/wp-content/uploads/2024/07/bg_dots.svg" class="attachment-large size-large wp-image-1702" alt="" style="width:100%;height:413.33%;max-width:45px">															</div>
+				</div>
+				<div class="elementor-element elementor-element-eec3fd6 elementor-widget__width-initial elementor-absolute section-shadow elementor-widget elementor-widget-image" data-id="eec3fd6" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="750" height="750" src="/wp-content/uploads/2024/07/bg_shadows-1024x1024.png" class="attachment-large size-large wp-image-1671" alt="" srcset="/wp-content/uploads/2024/07/bg_shadows-1024x1024.png 1024w, /wp-content/uploads/2024/07/bg_shadows-300x300.png 300w, /wp-content/uploads/2024/07/bg_shadows-150x150.png 150w, /wp-content/uploads/2024/07/bg_shadows-768x768.png 768w, /wp-content/uploads/2024/07/bg_shadows.png 1279w" sizes="(max-width: 750px) 100vw, 750px" style="width:100%;height:100%;max-width:1279px">															</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-a945350 e-flex e-con-boxed e-con e-parent" data-id="a945350" data-element_type="container" id="contact-us" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-39e487d elementor-widget__width-initial elementor-absolute section-shadow elementor-widget elementor-widget-image" data-id="39e487d" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="750" height="750" src="/wp-content/uploads/2024/07/bg_shadows-1024x1024.png" class="attachment-large size-large wp-image-1671" alt="" srcset="/wp-content/uploads/2024/07/bg_shadows-1024x1024.png 1024w, /wp-content/uploads/2024/07/bg_shadows-300x300.png 300w, /wp-content/uploads/2024/07/bg_shadows-150x150.png 150w, /wp-content/uploads/2024/07/bg_shadows-768x768.png 768w, /wp-content/uploads/2024/07/bg_shadows.png 1279w" sizes="(max-width: 750px) 100vw, 750px" style="width:100%;height:100%;max-width:1279px">															</div>
+				</div>
+		<div class="elementor-element elementor-element-d8c3b12 animated-slow e-flex e-con-boxed elementor-invisible e-con e-child" data-id="d8c3b12" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-3464267 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="3464267" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Send a Message</h2>		</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-8e19507 e-flex e-con-boxed e-con e-child" data-id="8e19507" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-bd1caf6 e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="bd1caf6" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;animation&quot;:&quot;bounceInUp&quot;}">
+				<div class="elementor-element elementor-element-66ff48a animated-slow elementor-invisible elementor-widget elementor-widget-image" data-id="66ff48a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="500" height="501" src="/wp-content/uploads/2024/07/illustration_contact-us_olara_wallet.svg" class="attachment-full size-full wp-image-1795" alt="" style="width:100%;height:100.2%;max-width:500px">															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-8b02cca e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="8b02cca" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInRight&quot;}">
+				<div class="elementor-element elementor-element-c526365 elementor-button-align-start elementor-widget elementor-widget-form" data-id="c526365" data-element_type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor-pro - v3.12.2 - 09-04-2023 */
+.elementor-button.elementor-hidden,.elementor-hidden{display:none}.e-form__step{width:100%}.e-form__step:not(.elementor-hidden){display:flex;flex-wrap:wrap}.e-form__buttons{flex-wrap:wrap}.e-form__buttons,.e-form__buttons__wrapper{display:flex}.e-form__indicators{display:flex;justify-content:space-between;align-items:center;flex-wrap:nowrap;font-size:13px;margin-bottom:var(--e-form-steps-indicators-spacing)}.e-form__indicators__indicator{display:flex;flex-direction:column;align-items:center;justify-content:center;flex-basis:0;padding:0 var(--e-form-steps-divider-gap)}.e-form__indicators__indicator__progress{width:100%;position:relative;background-color:var(--e-form-steps-indicator-progress-background-color);border-radius:var(--e-form-steps-indicator-progress-border-radius);overflow:hidden}.e-form__indicators__indicator__progress__meter{width:var(--e-form-steps-indicator-progress-meter-width,0);height:var(--e-form-steps-indicator-progress-height);line-height:var(--e-form-steps-indicator-progress-height);padding-right:15px;border-radius:var(--e-form-steps-indicator-progress-border-radius);background-color:var(--e-form-steps-indicator-progress-color);color:var(--e-form-steps-indicator-progress-meter-color);text-align:right;transition:width .1s linear}.e-form__indicators__indicator:first-child{padding-left:0}.e-form__indicators__indicator:last-child{padding-right:0}.e-form__indicators__indicator--state-inactive{color:var(--e-form-steps-indicator-inactive-primary-color,#c2cbd2)}.e-form__indicators__indicator--state-inactive [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none){background-color:var(--e-form-steps-indicator-inactive-secondary-color,#fff)}.e-form__indicators__indicator--state-inactive object,.e-form__indicators__indicator--state-inactive svg{fill:var(--e-form-steps-indicator-inactive-primary-color,#c2cbd2)}.e-form__indicators__indicator--state-active{color:var(--e-form-steps-indicator-active-primary-color,#39b54a);border-color:var(--e-form-steps-indicator-active-secondary-color,#fff)}.e-form__indicators__indicator--state-active [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none){background-color:var(--e-form-steps-indicator-active-secondary-color,#fff)}.e-form__indicators__indicator--state-active object,.e-form__indicators__indicator--state-active svg{fill:var(--e-form-steps-indicator-active-primary-color,#39b54a)}.e-form__indicators__indicator--state-completed{color:var(--e-form-steps-indicator-completed-secondary-color,#fff)}.e-form__indicators__indicator--state-completed [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none){background-color:var(--e-form-steps-indicator-completed-primary-color,#39b54a)}.e-form__indicators__indicator--state-completed .e-form__indicators__indicator__label{color:var(--e-form-steps-indicator-completed-primary-color,#39b54a)}.e-form__indicators__indicator--state-completed .e-form__indicators__indicator--shape-none{color:var(--e-form-steps-indicator-completed-primary-color,#39b54a);background-color:initial}.e-form__indicators__indicator--state-completed object,.e-form__indicators__indicator--state-completed svg{fill:var(--e-form-steps-indicator-completed-secondary-color,#fff)}.e-form__indicators__indicator__icon{width:var(--e-form-steps-indicator-padding,30px);height:var(--e-form-steps-indicator-padding,30px);font-size:var(--e-form-steps-indicator-icon-size);border-width:1px;border-style:solid;display:flex;justify-content:center;align-items:center;overflow:hidden;margin-bottom:10px}.e-form__indicators__indicator__icon img,.e-form__indicators__indicator__icon object,.e-form__indicators__indicator__icon svg{width:var(--e-form-steps-indicator-icon-size);height:auto}.e-form__indicators__indicator__icon .e-font-icon-svg{height:1em}.e-form__indicators__indicator__number{width:var(--e-form-steps-indicator-padding,30px);height:var(--e-form-steps-indicator-padding,30px);border-width:1px;border-style:solid;display:flex;justify-content:center;align-items:center;margin-bottom:10px}.e-form__indicators__indicator--shape-circle{border-radius:50%}.e-form__indicators__indicator--shape-square{border-radius:0}.e-form__indicators__indicator--shape-rounded{border-radius:5px}.e-form__indicators__indicator--shape-none{border:0}.e-form__indicators__indicator__label{text-align:center}.e-form__indicators__indicator__separator{width:100%;height:var(--e-form-steps-divider-width);background-color:#babfc5}.e-form__indicators--type-icon,.e-form__indicators--type-icon_text,.e-form__indicators--type-number,.e-form__indicators--type-number_text{align-items:flex-start}.e-form__indicators--type-icon .e-form__indicators__indicator__separator,.e-form__indicators--type-icon_text .e-form__indicators__indicator__separator,.e-form__indicators--type-number .e-form__indicators__indicator__separator,.e-form__indicators--type-number_text .e-form__indicators__indicator__separator{margin-top:calc(var(--e-form-steps-indicator-padding, 30px) / 2 - var(--e-form-steps-divider-width, 1px) / 2)}.elementor-field-type-hidden{display:none}.elementor-field-type-html{display:inline-block}.elementor-login .elementor-lost-password,.elementor-login .elementor-remember-me{font-size:.85em}.elementor-field-type-recaptcha_v3 .elementor-field-label{display:none}.elementor-field-type-recaptcha_v3 .grecaptcha-badge{z-index:1}.elementor-button .elementor-form-spinner{order:3}.elementor-form .elementor-button>span{display:flex;justify-content:center;align-items:center}.elementor-form .elementor-button .elementor-button-text{white-space:normal;flex-grow:0}.elementor-form .elementor-button svg{height:auto}.elementor-form .elementor-button .e-font-icon-svg{height:1em}.elementor-select-wrapper .select-caret-down-wrapper{position:absolute;top:50%;transform:translateY(-50%);inset-inline-end:10px;pointer-events:none;font-size:11px}.elementor-select-wrapper .select-caret-down-wrapper svg{display:unset;width:1em;aspect-ratio:unset;fill:currentColor}.elementor-select-wrapper .select-caret-down-wrapper i{font-size:19px;line-height:2}.elementor-select-wrapper.remove-before:before{content:""!important}</style>		<form class="elementor-form" method="post" name="New Form">
+			<input type="hidden" name="post_id" value="1347">
+			<input type="hidden" name="form_id" value="c526365">
+			<input type="hidden" name="referer_title" value="">
+
+							<input type="hidden" name="queried_id" value="1347">
+			
+			<div class="elementor-form-fields-wrapper elementor-labels-above">
+								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-50">
+												<label for="form-field-name" class="elementor-field-label">
+								First Name							</label>
+														<input size="1" type="text" name="form_fields[name]" id="form-field-name" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Enter Your First Name">
+											</div>
+								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_54dfce7 elementor-col-50">
+												<label for="form-field-field_54dfce7" class="elementor-field-label">
+								Last Name							</label>
+														<input size="1" type="text" name="form_fields[field_54dfce7]" id="form-field-field_54dfce7" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Enter Your Last Name">
+											</div>
+								<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-field-required">
+												<label for="form-field-email" class="elementor-field-label">
+								Email Address							</label>
+														<input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Enter Your Email Address" required="required" aria-required="true">
+											</div>
+								<div class="elementor-field-type-number elementor-field-group elementor-column elementor-field-group-field_b33c289 elementor-col-100 elementor-field-required">
+												<label for="form-field-field_b33c289" class="elementor-field-label">
+								Mobile Number							</label>
+									<input type="number" name="form_fields[field_b33c289]" id="form-field-field_b33c289" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Enter Your Mobile Number" required="required" aria-required="true" min="" max="">
+						</div>
+								<div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
+												<label for="form-field-message" class="elementor-field-label">
+								Message							</label>
+						<textarea class="elementor-field-textual elementor-field  elementor-size-sm" name="form_fields[message]" id="form-field-message" rows="4" placeholder="Message"></textarea>				</div>
+								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+					<button type="submit" class="elementor-button elementor-size-sm elementor-animation-shrink">
+						<span>
+															<span class=" elementor-button-icon">
+																										</span>
+																						<span class="elementor-button-text">Send</span>
+													</span>
+					</button>
+				</div>
+			</div>
+		</form>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+							</div>
+				<footer data-elementor-type="footer" data-elementor-id="16" class="elementor elementor-16 elementor-location-footer">
+						<div class="elementor-element elementor-element-e4be0c2 e-flex e-con-boxed e-con e-parent" data-id="e4be0c2" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-8bafadb e-con-full e-flex e-con e-child" data-id="8bafadb" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-dbbad65 elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="dbbad65" data-element_type="widget" data-widget_type="theme-site-logo.default">
+				<div class="elementor-widget-container">
+											<a href="/">
+			<img width="150" height="56" src="/wp-content/uploads/2023/12/logo_olara_wallet.png" class="attachment-full size-full wp-image-1331" alt="" style="width:100%;height:37.33%;max-width:150px">				</a>
+											</div>
+				</div>
+				<div class="elementor-element elementor-element-901688e elementor-widget elementor-widget-text-editor" data-id="901688e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Subscribe to Our Newsletter</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-c499e8b elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="c499e8b" data-element_type="widget" data-settings="{&quot;button_width&quot;:&quot;20&quot;,&quot;button_width_mobile&quot;:&quot;20&quot;,&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
+				<div class="elementor-widget-container">
+					<form class="elementor-form" method="post" name="New Form">
+			<input type="hidden" name="post_id" value="16">
+			<input type="hidden" name="form_id" value="c499e8b">
+			<input type="hidden" name="referer_title" value="">
+
+							<input type="hidden" name="queried_id" value="1347">
+			
+			<div class="elementor-form-fields-wrapper elementor-labels-">
+								<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-75 elementor-sm-75 elementor-field-required">
+												<label for="form-field-email" class="elementor-field-label elementor-screen-only">
+								Email							</label>
+														<input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Email Address" required="required" aria-required="true">
+											</div>
+								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons elementor-sm-20">
+					<button type="submit" class="elementor-button elementor-size-sm">
+						<span>
+															<span class="elementor-align-icon-left elementor-button-icon">
+									<i aria-hidden="true" class="icon icon-right-arrow"></i>																			<span class="elementor-screen-only">Submit</span>
+																	</span>
+																				</span>
+					</button>
+				</div>
+			</div>
+		</form>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-944acbf e-con-full e-flex e-con e-child" data-id="944acbf" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-29d40b5 elementor-widget elementor-widget-heading" data-id="29d40b5" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Product</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-cef925f elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="cef925f" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="https://olarawallet.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css">		<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="#">
+
+											<span class="elementor-icon-list-text">Invest</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="#">
+
+											<span class="elementor-icon-list-text">Crypto</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="#">
+
+											<span class="elementor-icon-list-text">Cash Card</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="#">
+
+											<span class="elementor-icon-list-text">Learn</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-0a144d1 e-con-full e-flex e-con e-child" data-id="0a144d1" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-5bd5016 elementor-widget elementor-widget-heading" data-id="5bd5016" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Company</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-894ce9b elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="894ce9b" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="#">
+
+											<span class="elementor-icon-list-text">Home</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="#about">
+
+											<span class="elementor-icon-list-text">About</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="#">
+
+											<span class="elementor-icon-list-text">Blog</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="#contact-us">
+
+											<span class="elementor-icon-list-text">Contact Us</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-8475fda e-con-full e-flex e-con e-child" data-id="8475fda" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-bbd3c1c elementor-widget elementor-widget-heading" data-id="bbd3c1c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Contact</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-8b5cd36 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="8b5cd36" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="mailto:info@olarawallet.com">
+
+												<span class="elementor-icon-list-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none"><g clip-path="url(#clip0_1639_5302)"><path d="M15.5512 12.9961L13.5412 15.0129C12.7261 15.8309 11.2919 15.8485 10.4591 15.0129L8.44899 12.9961L1.22949 20.239C1.49823 20.3633 1.79452 20.4375 2.10952 20.4375H21.8908C22.2058 20.4375 22.502 20.3634 22.7706 20.2391L15.5512 12.9961Z" fill="#B7B7B7"></path><path d="M21.8907 3.5625H2.10943C1.79443 3.5625 1.49813 3.63666 1.22949 3.76092L8.94404 11.5011C8.94455 11.5016 8.94516 11.5017 8.94568 11.5022C8.9462 11.5027 8.94629 11.5034 8.94629 11.5034L11.4547 14.0201C11.7211 14.2866 12.2791 14.2866 12.5455 14.0201L15.0534 11.5038C15.0534 11.5038 15.054 11.5027 15.0545 11.5022C15.0545 11.5022 15.0556 11.5016 15.0562 11.5011L22.7705 3.76088C22.5019 3.63656 22.2057 3.5625 21.8907 3.5625Z" fill="#B7B7B7"></path><path d="M0.224344 4.74438C0.0853125 5.02554 0 5.33763 0 5.67195V18.3282C0 18.6625 0.0852187 18.9746 0.224297 19.2558L7.45631 12.0003L0.224344 4.74438Z" fill="#B7B7B7"></path><path d="M23.7759 4.74414L16.5439 12.0002L23.7759 19.2557C23.9149 18.9745 24.0002 18.6625 24.0002 18.328V5.6718C24.0002 5.33739 23.9149 5.0253 23.7759 4.74414Z" fill="#B7B7B7"></path></g><defs><clippath id="clip0_1639_5302"><rect width="24" height="24" fill="white"></rect></clippath></defs></svg>						</span>
+										<span class="elementor-icon-list-text">info@olarawallet.com</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://x.com/OlaraWallet" target="_blank">
+
+												<span class="elementor-icon-list-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none"><g clip-path="url(#clip0_1639_5315)"><path d="M14.2388 10.1624L22.9813 0H20.9096L13.3185 8.82384L7.25559 0H0.262695L9.43106 13.3432L0.262695 24H2.33449L10.3508 14.6817L16.7537 24H23.7466L14.2383 10.1624H14.2388ZM11.4012 13.4608L10.4723 12.1321L3.08098 1.55961H6.26314L12.228 10.0919L13.1569 11.4206L20.9106 22.5113H17.7284L11.4012 13.4613V13.4608Z" fill="#B7B7B7"></path></g><defs><clippath id="clip0_1639_5315"><rect width="24" height="24" fill="white"></rect></clippath></defs></svg>						</span>
+										<span class="elementor-icon-list-text">Twitter</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-1a97015 e-flex e-con-boxed e-con e-child" data-id="1a97015" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-2528a34 elementor-widget elementor-widget-image" data-id="2528a34" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="#">
+							<img loading="lazy" width="150" height="50" src="/wp-content/uploads/2024/07/btn_apple_download.svg" class="attachment-full size-full wp-image-1523" alt="" style="width:100%;height:33.33%;max-width:150px">								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-4e48c8e elementor-widget elementor-widget-image" data-id="4e48c8e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="#">
+							<img loading="lazy" width="150" height="50" src="/wp-content/uploads/2024/07/btn_Google_download.svg" class="attachment-full size-full wp-image-1524" alt="" style="width:100%;height:33.33%;max-width:150px">								</a>
+															</div>
+				</div>
+					</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-444f366 e-flex e-con-boxed e-con e-parent" data-id="444f366" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-dea42b2 elementor-widget__width-inherit elementor-widget elementor-widget-heading" data-id="dea42b2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">© 2024 Olara All Rights Reserved.</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-b9a293e elementor-widget__width-inherit elementor-widget elementor-widget-heading" data-id="b9a293e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="https://www.devoqdesign.com/" target="_blank">DESIGN &amp; DEVELOPED BY DEVOQ DESIGN</a></h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5ab1147 elementor-widget__width-initial elementor-absolute section-shadow elementor-widget elementor-widget-image" data-id="5ab1147" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" width="750" height="750" src="/wp-content/uploads/2024/07/bg_shadows-1024x1024.png" class="attachment-large size-large wp-image-1671" alt="" srcset="/wp-content/uploads/2024/07/bg_shadows-1024x1024.png 1024w, /wp-content/uploads/2024/07/bg_shadows-300x300.png 300w, /wp-content/uploads/2024/07/bg_shadows-150x150.png 150w, /wp-content/uploads/2024/07/bg_shadows-768x768.png 768w, /wp-content/uploads/2024/07/bg_shadows.png 1279w" sizes="(max-width: 750px) 100vw, 750px" style="width:100%;height:100%;max-width:1279px">															</div>
+				</div>
+					</div>
+				</div>
+						</footer>
+		
+<script>document.body.classList.remove("no-js");</script>	<script>if ( -1 !== navigator.userAgent.indexOf( 'MSIE' ) || -1 !== navigator.appVersion.indexOf( 'Trident/' ) ) {
+		document.body.classList.add( 'is-IE' );
+	}</script>
+	<link rel="stylesheet" id="e-animations-css" href="/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.17.2" media="all">
+<script id="twenty-twenty-one-ie11-polyfills-js-after">
+( Element.prototype.matches && Element.prototype.closest && window.NodeList && NodeList.prototype.forEach ) || document.write( '<script src="/wp-content/themes/devoq/assets/js/polyfills.js?ver=1.7"><\/scr' + 'ipt>' );
+</script>
+<script src="/wp-content/themes/devoq/assets/js/responsive-embeds.js?ver=1.7" id="twenty-twenty-one-responsive-embeds-script-js"></script>
+<script src="/wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script.js?ver=3.0.4" id="elementskit-framework-js-frontend-js"></script>
+<script id="elementskit-framework-js-frontend-js-after">var elementskit = {
+			resturl: '/wp-json/elementskit/v1/',
+		}</script>
+<script src="/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts.js?ver=3.0.4" id="ekit-widget-scripts-js"></script>
+<script src="/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1" id="smartmenus-js"></script>
+<script src="/wp-content/plugins/unlimited-elements-for-elementor-premium/assets_libraries/remote/ue-remote-controls.js?ver=1.5.61" id="ue_remote_controls-js"></script>
+<script src="/wp-content/plugins/unlimited-elements-for-elementor-premium/assets_libraries/owl-carousel-new/owl.carousel.min.js?ver=1.5.61" id="owl-carousel-js"></script>
+<script src="/wp-content/plugins/unlimited-elements-for-elementor-premium/assets_libraries/fancybox3/jquery.fancybox.min.js?ver=1.5.61" id="fancybox-js"></script>
+<script src="/wp-content/uploads/ac_assets/full_width_image_carousel/imagesloaded.pkgd.min.js?ver=1.5.61" id="uc_ac_assets_file_imagesloaded_pkgd_min_js_5485-js"></script>
+<script src="/wp-content/plugins/unlimited-elements-for-elementor-premium/assets_libraries/lity/lity.min.js?ver=1.5.61" id="lity-js"></script>
+<script src="/wp-content/uploads/ac_assets/uc_icon_accordion/icon_accordion.js?ver=1.5.61" id="uc_ac_assets_file_icon_accordion_js_3709-js"></script>
+<script src="/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.12.2" id="elementor-pro-webpack-runtime-js"></script>
+<script src="/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.17.2" id="elementor-webpack-runtime-js"></script>
+<script src="/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.17.2" id="elementor-frontend-modules-js"></script>
+<script src="/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
+<script src="/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0" id="regenerator-runtime-js"></script>
+<script src="/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script src="/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js"></script>
+<script src="/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
+</script>
+<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":"\/wp-admin\/admin-ajax.php","nonce":"71af6eba05","urls":{"assets":"\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
+<script src="/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.12.2" id="elementor-pro-frontend-js"></script>
+<script src="/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
+<script src="/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
+<script id="elementor-frontend-js-before">var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.17.2","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"additional_custom_breakpoints":true,"container":true,"e_swiper_latest":true,"theme_builder_v2":true,"block_editor_assets_optimize":true,"landing-pages":true,"e_image_loading_optimization":true,"e_global_styleguide":true,"page-transitions":true,"notes":true,"loop":true,"form-submissions":true,"e_scroll_snap":true},"urls":{"assets":"\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"body_background_background":"classic","active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":1347,"title":"Olara%20Wallet","excerpt":"","featuredImage":false}};</script>
+<script src="/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.17.2" id="elementor-frontend-js"></script>
+<script src="/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.12.2" id="pro-elements-handlers-js"></script>
+<script src="/wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle.min.js?ver=3.0.4" id="animate-circle-js"></script>
+<script src="/wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor.js?ver=3.0.4" id="elementskit-elementor-js"></script>
+<script src="/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.12.2" id="e-sticky-js"></script>
+
+<!--   Unlimited Elements 1.5.61 Scripts --> 
+<script type="text/javascript" id="unlimited-elements-scripts">
+
+/* Justified Image Carousel scripts: */ 
+
+jQuery(document).ready(function(){	
+ jQuery('#uc_justified_image_carousel_elementor_c4cef89').imagesLoaded( function() { 
+  function uc_justified_image_carousel_elementor_c4cef89_start(){
+
+    var objCarousel = jQuery('#uc_justified_image_carousel_elementor_c4cef89');
+    var objClonedItems;
+    var g_useFancybox = objCarousel.data("lightbox");
+    
+    function getUnits(string){
+      var units;
+      
+      if(string.indexOf("px") != -1)
+        units = "px";
+            
+      if(string.indexOf("vh") != -1)
+        units = "vh";
+      
+      if(string.indexOf("rem") != -1)
+        units = "rem";
+    
+      return(units);
+    }
+
+    function setImageSize(objImgHeight, sizeRatio, objImg, objItem){
+
+      //check if constant width on mobile is on
+      var	dataConstantWidth = objCarousel.data('constant-width');
+
+      if(dataConstantWidth == true && window.matchMedia("(max-width: 767px)").matches == true)
+      return(false);
+      
+      var units = getUnits('488px');
+
+      if(window.matchMedia("(max-width: 1024px)").matches == true){
+      	objImgHeight = parseInt('');
+        units = getUnits('');
+      }      
+
+      if(window.matchMedia("(max-width: 767px)").matches == true){
+      	objImgHeight = parseInt('376px'); 
+        units = getUnits('376px');
+      }
+
+      var objImgWidth = (sizeRatio * objImgHeight).toFixed(2);
+
+      objImg.attr('data-width', objImgWidth);
+
+      objImg.css({'width': '100%', 'height': 'auto'});
+
+      objItem.css({'width': objImgWidth + units});
+
+    }
+
+    function initCarousel(){
+
+      //cloned items fancybox fix
+      var objItems = objCarousel.find('.ue-item');      
+      var itemsNum = objItems.length;
+
+      //set data index for each origin item
+      for(let i=0; i<itemsNum; i++){
+
+        var objItem = objItems.eq(i);
+        
+                
+        objItem.attr('data-fancy-index', i);        
+      }
+
+      var imgItem = objCarousel.find('img');
+
+      imgItem.each(function(){
+
+        var objImg = jQuery(this);
+        var objItem = objImg.parents('.item');
+
+        var objImgDefaultWidth = parseInt(objImg.attr('width'));
+        var objImgDefaultHeight = parseInt(objImg.attr('height'));
+
+        if(!objImgDefaultWidth){
+            objImg.css({'width': 'auto'});
+            return(true);
+        }
+
+        var sizeRatio = objImgDefaultWidth / objImgDefaultHeight;
+
+        var objImgHeight = parseInt('488px');
+
+        //set image size
+        jQuery(window).on('resize', function(){          
+           setImageSize(objImgHeight, sizeRatio, objImg, objItem)        
+        });
+
+        setImageSize(objImgHeight, sizeRatio, objImg, objItem)
+
+      });
+
+
+      objCarousel.owlCarousel({
+          margin:55,
+          loop:true,
+          navText: ["<i class=''><\/i>","<i class=''><\/i>"],
+          nav: false,
+          rtl: false,
+          navigation:true,
+          autoWidth:true,
+          center:true,
+          autoplay:true,
+          autoplayTimeout:4000,
+          smartSpeed: 1000,               
+          responsive: {
+            0 : {
+                                   autoWidth:false,           
+                   items: 1,
+                   paddingType: 'both',           
+                                                   stagePadding: 100,
+                               
+            },
+            767 : {
+                items:4       
+            }
+          }     
+      });
+
+      //wait while carousel init
+      setTimeout(function(){
+
+        var g_useFancybox = objCarousel.data("lightbox");
+
+        if(g_useFancybox == false)
+        return(false);
+
+        //init fancybox only on non cloned items
+        var fancyLink = objCarousel.find(".owl-item:not(.cloned) .ue-link");
+
+        fancyLink.attr("data-fancybox", "gallery")
+
+        fancyLink.fancybox({
+            loop: true,
+            arrows : true,
+            backfocus: false,
+            btnTpl: {
+              arrowLeft: `<button data-fancybox-prev class="fancybox-button fancybox-button--arrow_left" title="prev">` +
+              `<div><i class='fas fa-arrow-left'><\/i><\/div>` +
+              `<\/button>`,
+              arrowRight: `<button data-fancybox-next class="fancybox-button fancybox-button--arrow_right" title="next">` +
+              `<div><i class='fas fa-arrow-right'><\/i><\/div>` +
+              `<\/button>`,
+            },
+                    });
+        
+        //for cloned items find origin items and trigger it
+        objClonedItems = objCarousel.find(".owl-item.cloned");
+
+        objClonedItems.on('click', function() {
+
+          var objClonedItem = jQuery(this);
+          var objClonedItemChild = objClonedItem.find('.ue-item');
+          var clickedDataFancyIndex = objClonedItemChild.data('fancy-index');
+          var objOriginItem = objCarousel.find('.owl-item:not(.cloned) [data-fancy-index='+clickedDataFancyIndex+'] .ue-link');
+          var objOriginOwlItem = objOriginItem.parent('.owl-item');
+
+          objOriginItem.trigger('click');
+
+          //do nothing with clicked cloned item https://obu.edu/_resources/ldp/galleries/fancybox/
+          return(false);
+
+        });
+
+      },400);
+
+      /*
+      * use only elementors lightbox
+      */
+      function openElementorLightboxOnly() {
+
+          var dataUseElementorLightbox = objCarousel.data("use-elementor-lightbox");
+
+          if (dataUseElementorLightbox == false)
+          return(true);
+
+          if(g_useFancybox == false)
+          return(true);
+
+          setTimeout(function () {
+
+              var objElementorLightBox = jQuery(".elementor-lightbox");
+
+              if (!objElementorLightBox.length)
+              return(true);
+
+              var objFancybox = jQuery(".fancybox-container");
+
+              if (!objFancybox.length)
+              return(true);
+
+              objFancybox.remove();
+
+              //remove fancy classes from body
+              jQuery("body").removeClass("fancybox-active compensate-for-scrollbar");
+
+          }, 10);
+      }
+
+      var objLightbox = objCarousel.find(".ue-link");
+
+      objLightbox.on("click", openElementorLightboxOnly);
+
+
+    }  
+
+    initCarousel();
+
+    						
+			objCarousel.trigger("uc-object-ready");
+			jQuery("body").trigger("uc-remote-parent-init", [objCarousel]);
+			  
+
+    objCarousel.on("uc_ajax_refreshed",function(){      
+          objCarousel.trigger('destroy.owl.carousel');      
+          initCarousel();      
+    });
+
+
+  }if(jQuery("#uc_justified_image_carousel_elementor_c4cef89").length) uc_justified_image_carousel_elementor_c4cef89_start(); else
+      jQuery( document ).on( 'elementor/popup/show', () => { if(jQuery("#uc_justified_image_carousel_elementor_c4cef89").length) uc_justified_image_carousel_elementor_c4cef89_start();});
+                                                                                    
+});});
+
+/* Remote Arrows scripts: */ 
+
+jQuery(document).ready(function(){
+  
+    var objRemoteApi = new UERemoteWidgets();
+  
+    function initArrows(parentid2){
+	
+        var options = {};
+      
+        if(parentid2)
+      		options.force_parentid = parentid2;
+          
+        objRemoteApi.onWidgetInit("uc_arrow_navigation_elementor_5374884",function(objWidget){
+
+                        objRemoteApi.setAction("next", ".ue-carousel-next");
+             
+                           objRemoteApi.setAction("prev", ".ue-carousel-prev");
+              		
+
+        },options);	
+     
+        
+    }
+    
+    initArrows();
+    
+    var objWidget = jQuery("#uc_arrow_navigation_elementor_5374884");
+    
+     var parentid2 = objWidget.data("parentid2");
+     if(parentid2)
+    	initArrows(parentid2);   
+              
+     
+     	                  
+       	          
+});
+
+/* Video Play Button scripts: */ 
+
+jQuery(document).ready(function(){
+  
+var objVideoButton = jQuery("#uc_blox_play_button_elementor_70d2489");  
+
+//fix for ios devices
+jQuery(document).on('click.lity', function(){
+ 
+   var objIframeContainer = jQuery(".lity-iframe-container");
+   var objIframe = objIframeContainer.find("iframe");          
+   
+   setTimeout(function(){
+     
+      var isVideoSelfHosted = objVideoButton.data("path");
+     
+      if(isVideoSelfHosted != "self_hosted")
+      return(false);
+          
+      var objVideo = objIframe.contents().find("video");
+     	
+      if(!objVideo.length)
+      return(false);
+     
+      if(objVideo.hasClass("mac") || objVideo.hasClass("video") || objVideo.hasClass("audio")){
+        
+        objVideo.removeClass("mac");
+        objVideo.removeClass("video");
+        objVideo.removeClass("audio");
+        
+      }      
+     
+   },400);
+  
+    
+});
+
+});
+
+/* Icon Accordion scripts: */ 
+
+jQuery(document).ready(function(){	
+  function uc_uc_icon_accordion_elementor_75e5611_start(){
+
+    var objAccordion = jQuery("#uc_uc_icon_accordion_elementor_75e5611");
+    UCPostAccordion(objAccordion);
+    
+    //before - after widget template tab fix
+    function checkBeforeAfterAndTrigger(){
+    
+      var objBeforeAfterWidgets = objAccordion.find(".cocoen");
+
+      if(!objBeforeAfterWidgets.length)
+      return(false);  
+
+      objBeforeAfterWidgets.trigger("delayed_start"); 
+      
+    }
+        
+    objAccordion.on("mouseover", checkBeforeAfterAndTrigger);
+
+    var objRemoteOptions = {
+      class_items:"uc_ac_box",
+      class_active:"uc-item-active",
+      selector_item_trigger:".uc_trigger"
+    };
+
+    						objAccordion.data("uc-remote-options", objRemoteOptions);
+						
+			objAccordion.trigger("uc-object-ready");
+			jQuery("body").trigger("uc-remote-parent-init", [objAccordion]);
+			  
+
+  }setTimeout(function(){if(jQuery("#uc_uc_icon_accordion_elementor_75e5611").length) uc_uc_icon_accordion_elementor_75e5611_start(); else
+      jQuery( document ).on( 'elementor/popup/show', () => { if(jQuery("#uc_uc_icon_accordion_elementor_75e5611").length) uc_uc_icon_accordion_elementor_75e5611_start();});},100); 
+});
+
+/* Video Play Button scripts: */ 
+
+jQuery(document).ready(function(){
+  
+var objVideoButton = jQuery("#uc_blox_play_button_elementor_ec69871");  
+
+//fix for ios devices
+jQuery(document).on('click.lity', function(){
+ 
+   var objIframeContainer = jQuery(".lity-iframe-container");
+   var objIframe = objIframeContainer.find("iframe");          
+   
+   setTimeout(function(){
+     
+      var isVideoSelfHosted = objVideoButton.data("path");
+     
+      if(isVideoSelfHosted != "self_hosted")
+      return(false);
+          
+      var objVideo = objIframe.contents().find("video");
+     	
+      if(!objVideo.length)
+      return(false);
+     
+      if(objVideo.hasClass("mac") || objVideo.hasClass("video") || objVideo.hasClass("audio")){
+        
+        objVideo.removeClass("mac");
+        objVideo.removeClass("video");
+        objVideo.removeClass("audio");
+        
+      }      
+     
+   },400);
+  
+    
+});
+
+});
+
+/* Video Play Button scripts: */ 
+
+jQuery(document).ready(function(){
+  
+var objVideoButton = jQuery("#uc_blox_play_button_elementor_cf784df");  
+
+//fix for ios devices
+jQuery(document).on('click.lity', function(){
+ 
+   var objIframeContainer = jQuery(".lity-iframe-container");
+   var objIframe = objIframeContainer.find("iframe");          
+   
+   setTimeout(function(){
+     
+      var isVideoSelfHosted = objVideoButton.data("path");
+     
+      if(isVideoSelfHosted != "self_hosted")
+      return(false);
+          
+      var objVideo = objIframe.contents().find("video");
+     	
+      if(!objVideo.length)
+      return(false);
+     
+      if(objVideo.hasClass("mac") || objVideo.hasClass("video") || objVideo.hasClass("audio")){
+        
+        objVideo.removeClass("mac");
+        objVideo.removeClass("video");
+        objVideo.removeClass("audio");
+        
+      }      
+     
+   },400);
+  
+    
+});
+
+});
+
+/* Video Play Button scripts: */ 
+
+jQuery(document).ready(function(){
+  
+var objVideoButton = jQuery("#uc_blox_play_button_elementor_8133a81");  
+
+//fix for ios devices
+jQuery(document).on('click.lity', function(){
+ 
+   var objIframeContainer = jQuery(".lity-iframe-container");
+   var objIframe = objIframeContainer.find("iframe");          
+   
+   setTimeout(function(){
+     
+      var isVideoSelfHosted = objVideoButton.data("path");
+     
+      if(isVideoSelfHosted != "self_hosted")
+      return(false);
+          
+      var objVideo = objIframe.contents().find("video");
+     	
+      if(!objVideo.length)
+      return(false);
+     
+      if(objVideo.hasClass("mac") || objVideo.hasClass("video") || objVideo.hasClass("audio")){
+        
+        objVideo.removeClass("mac");
+        objVideo.removeClass("video");
+        objVideo.removeClass("audio");
+        
+      }      
+     
+   },400);
+  
+    
+});
+
+});
+
+/* Video Play Button scripts: */ 
+
+jQuery(document).ready(function(){
+  
+var objVideoButton = jQuery("#uc_blox_play_button_elementor_dbf709a");  
+
+//fix for ios devices
+jQuery(document).on('click.lity', function(){
+ 
+   var objIframeContainer = jQuery(".lity-iframe-container");
+   var objIframe = objIframeContainer.find("iframe");          
+   
+   setTimeout(function(){
+     
+      var isVideoSelfHosted = objVideoButton.data("path");
+     
+      if(isVideoSelfHosted != "self_hosted")
+      return(false);
+          
+      var objVideo = objIframe.contents().find("video");
+     	
+      if(!objVideo.length)
+      return(false);
+     
+      if(objVideo.hasClass("mac") || objVideo.hasClass("video") || objVideo.hasClass("audio")){
+        
+        objVideo.removeClass("mac");
+        objVideo.removeClass("video");
+        objVideo.removeClass("audio");
+        
+      }      
+     
+   },400);
+  
+    
+});
+
+});
+</script>
+		<script>/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",(function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())}),!1);</script>
+		
+</body>
+</html>
